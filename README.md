@@ -172,11 +172,135 @@ Shows disk space usage in a human-readable format.
 </details>
 
 ---
+## Networking 🌐
+
+<details>
+<summary>🔹 1. What is a network?</summary>
+<br>
+A network is a group of interconnected devices that communicate and share resources.
+</details>
+
+<details>
+<summary>🔹 2. What is an IP address?</summary>
+<br>
+An IP address is a unique identifier for a device on a network, used for routing traffic.
+</details>
+
+<details>
+<summary>🔹 3. What is the difference between IPv4 and IPv6?</summary>
+<br>
+IPv4 uses 32-bit addresses (e.g., 192.168.1.1), while IPv6 uses 128-bit (e.g., fe80::1).
+</details>
+
+<details>
+<summary>🔹 4. What is a subnet mask?</summary>
+<br>
+It determines the network and host portions of an IP address.
+</details>
+
+<details>
+<summary>🔹 5. What is DNS?</summary>
+<br>
+DNS (Domain Name System) translates domain names into IP addresses.
+</details>
+
+<details>
+<summary>🔹 6. What is DHCP?</summary>
+<br>
+DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to devices.
+</details>
+
+<details>
+<summary>🔹 7. What is the difference between TCP and UDP?</summary>
+<br>
+TCP is connection-oriented and reliable; UDP is connectionless and faster but less reliable.
+</details>
+
+<details>
+<summary>🔹 8. What is NAT?</summary>
+<br>
+NAT (Network Address Translation) maps private IP addresses to public ones.
+</details>
+
+<details>
+<summary>🔹 9. What is a firewall?</summary>
+<br>
+A firewall filters incoming and outgoing traffic based on security rules.
+</details>
+
+<details>
+<summary>🔹 10. What is the OSI model?</summary>
+<br>
+The OSI model is a conceptual framework with 7 layers that describe network communication.
+</details>
+
+<details>
+<summary>🔹 11. What layer is DNS in the OSI model?</summary>
+<br>
+DNS operates at the Application layer (Layer 7).
+</details>
+
+<details>
+<summary>🔹 12. What is a port number?</summary>
+<br>
+Ports identify specific processes/services on a device (e.g., HTTP = 80, SSH = 22).
+</details>
+
+<details>
+<summary>🔹 13. What is ping used for?</summary>
+<br>
+`ping` checks network connectivity by sending ICMP echo requests.
+</details>
+
+<details>
+<summary>🔹 14. What is traceroute?</summary>
+<br>
+`traceroute` shows the path packets take to reach a destination.
+</details>
+
+<details>
+<summary>🔹 15. What is localhost?</summary>
+<br>
+Localhost (127.0.0.1) refers to the local computer's network interface.
+</details>
+
+<details>
+<summary>🔹 16. What is a VPN?</summary>
+<br>
+A VPN (Virtual Private Network) securely connects remote users to a private network.
+</details>
+
+<details>
+<summary>🔹 17. What is latency?</summary>
+<br>
+Latency is the delay between sending and receiving data, usually measured in milliseconds.
+</details>
+
+<details>
+<summary>🔹 18. What is bandwidth?</summary>
+<br>
+Bandwidth is the maximum data transfer rate over a network path.
+</details>
+
+<details>
+<summary>🔹 19. What is the default gateway?</summary>
+<br>
+It is the IP address that routes traffic from a local network to other networks.
+</details>
+
+<details>
+<summary>🔹 20. What is ARP?</summary>
+<br>
+ARP (Address Resolution Protocol) maps IP addresses to MAC addresses on a local network.
+</details>
+
+---
 
 ### 📌 Stay tuned...
 
 Upcoming sections:  
-🌐 **Networking** | 🔧 **Git** | ☁️ **AWS** | 🐳 **Docker** | ⚙️ **CI/CD**
+🔧 **Git** | ☁️ **AWS** | 🐳 **Docker** | ⚙️ **CI/CD**
 
 ---
+
 
