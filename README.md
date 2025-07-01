@@ -296,11 +296,6 @@ ARP (Address Resolution Protocol) maps IP addresses to MAC addresses on a local 
 
 ---
 
-### 📌 Stay tuned...
 
-Upcoming sections:  
-🔧 **Git** | ☁️ **AWS** | 🐳 **Docker** | ⚙️ **CI/CD**
-
----
 
 
