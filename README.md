@@ -296,6 +296,149 @@ ARP (Address Resolution Protocol) maps IP addresses to MAC addresses on a local 
 
 ---
 
+## Git 🔧
+
+<details>
+<summary>🔹 1. What is Git?</summary>
+<br>
+Git is a distributed version control system used to track changes in source code during software development.
+</details>
+
+<details>
+<summary>🔹 2. What is the difference between Git and GitHub?</summary>
+<br>
+Git is a version control system, while GitHub is a cloud-based platform that hosts Git repositories.
+</details>
+
+<details>
+<summary>🔹 3. What is a repository in Git?</summary>
+<br>
+A repository (repo) is a storage space where your project’s code and its history are stored.
+</details>
+
+<details>
+<summary>🔹 4. What is the difference between a local and remote repository?</summary>
+<br>
+A local repository exists on your machine; a remote repository is hosted on a server like GitHub or GitLab.
+</details>
+
+<details>
+<summary>🔹 5. What is a branch in Git?</summary>
+<br>
+A branch is a separate line of development. The default branch is usually `main` or `master`.
+</details>
+
+<details>
+<summary>🔹 6. How do you create a new branch?</summary>
+<br>
+Use `git branch branch-name` to create and `git checkout branch-name` to switch.
+</details>
+
+<details>
+<summary>🔹 7. What is the difference between `git merge` and `git rebase`?</summary>
+<br>
+`git merge` combines branches and creates a merge commit.  
+`git rebase` moves or reapplies commits on top of another base branch.
+</details>
+
+<details>
+<summary>🔹 8. What is a commit in Git?</summary>
+<br>
+A commit is a snapshot of the repository at a specific point in time.
+</details>
+
+<details>
+<summary>🔹 9. What does `git status` do?</summary>
+<br>
+It shows the current status of your working directory and staging area.
+</details>
+
+<details>
+<summary>🔹 10. What is the staging area in Git?</summary>
+<br>
+It's a place where changes are kept before committing them with `git commit`.
+</details>
+
+<details>
+<summary>🔹 11. What does `git add` do?</summary>
+<br>
+It adds changes to the staging area, preparing them for a commit.
+</details>
+
+<details>
+<summary>🔹 12. What is the difference between `git pull` and `git fetch`?</summary>
+<br>
+`git pull` fetches changes and merges them into your local branch.  
+`git fetch` only downloads changes, not merging them.
+</details>
+
+<details>
+<summary>🔹 13. What does `git clone` do?</summary>
+<br>
+It copies a remote repository to your local machine.
+</details>
+
+<details>
+<summary>🔹 14. What is a conflict in Git, and how do you resolve it?</summary>
+<br>
+A conflict occurs when changes in two branches clash. You resolve it manually and then commit the fix.
+</details>
+
+<details>
+<summary>🔹 15. How do you undo a commit?</summary>
+<br>
+Use `git revert` to create a new commit that undoes changes, or `git reset` for local history changes.
+</details>
+
+<details>
+<summary>🔹 16. What is `.gitignore`?</summary>
+<br>
+A file that tells Git which files or directories to ignore in a project.
+</details>
+
+<details>
+<summary>🔹 17. What is a detached HEAD in Git?</summary>
+<br>
+It means you're not on any branch but on a specific commit. Commits made here won’t belong to any branch.
+</details>
+
+<details>
+<summary>🔹 18. What is `git stash`?</summary>
+<br>
+It temporarily saves changes that are not ready to be committed so you can work on something else.
+</details>
+
+<details>
+<summary>🔹 19. How do you see the commit history?</summary>
+<br>
+Use `git log` to view the commit history.
+</details>
+
+<details>
+<summary>🔹 20. How do you contribute to an open-source project using Git?</summary>
+<br>
+1. Fork the repo  
+2. Clone your fork  
+3. Create a branch  
+4. Make changes  
+5. Commit and push  
+6. Open a pull request (PR)
+</details>
+
+---
+
+### 📌 Coming Next...
+
+➡️ **AWS** ☁️  
+➡️ **Terraform** 🧱  
+➡️ **Docker & Kubernetes** 🐳  
+➡️ **CI/CD** ⚙️  
+
+---
+
+> 📘 Keep learning — version control is the backbone of collaboration!
+
+
 
 
 
