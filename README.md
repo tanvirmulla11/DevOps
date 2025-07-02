@@ -426,17 +426,138 @@ Use `git log` to view the commit history.
 </details>
 
 ---
+# ☁️ AWS – DevOps Interview Questions
 
-### 📌 Coming Next...
+<details>
+<summary>🔹 1. What is AWS?</summary>
+<br>
+Amazon Web Services (AWS) is a comprehensive cloud computing platform offering IaaS, PaaS, and SaaS services such as compute, storage, databases, networking, machine learning, and more.
+</details>
 
-➡️ **AWS** ☁️  
-➡️ **Terraform** 🧱  
-➡️ **Docker & Kubernetes** 🐳  
-➡️ **CI/CD** ⚙️  
+<details>
+<summary>🔹 2. What is EC2?</summary>
+<br>
+Amazon EC2 (Elastic Compute Cloud) provides scalable virtual servers in the cloud.
+</details>
+
+<details>
+<summary>🔹 3. What is S3?</summary>
+<br>
+Amazon S3 (Simple Storage Service) is an object storage service with high scalability, durability, and availability.
+</details>
+
+<details>
+<summary>🔹 4. What are IAM roles and policies?</summary>
+<br>
+IAM (Identity and Access Management) allows you to define permissions using users, roles, and policies to securely control access to AWS resources.
+</details>
+
+<details>
+<summary>🔹 5. What is an AMI?</summary>
+<br>
+An AMI (Amazon Machine Image) is a pre-configured template used to launch EC2 instances.
+</details>
+
+<details>
+<summary>🔹 6. What is the difference between a Security Group and NACL?</summary>
+<br>
+Security Groups act as virtual firewalls for instances, while NACLs (Network Access Control Lists) control traffic at the subnet level.
+</details>
+
+<details>
+<summary>🔹 7. What is an Elastic Load Balancer (ELB)?</summary>
+<br>
+ELB automatically distributes incoming traffic across multiple targets (EC2 instances, containers, etc.) to ensure high availability.
+</details>
+
+<details>
+<summary>🔹 8. What is Auto Scaling?</summary>
+<br>
+Auto Scaling automatically adjusts the number of EC2 instances to handle traffic changes based on defined policies.
+</details>
+
+<details>
+<summary>🔹 9. What is VPC?</summary>
+<br>
+Amazon VPC (Virtual Private Cloud) lets you provision a logically isolated network in AWS where you can launch resources.
+</details>
+
+<details>
+<summary>🔹 10. What are subnets?</summary>
+<br>
+Subnets divide a VPC into smaller IP ranges, enabling isolation and routing of resources across different availability zones.
+</details>
+
+<details>
+<summary>🔹 11. What is the difference between Public and Private subnets?</summary>
+<br>
+Public subnets have internet access via an Internet Gateway; private subnets do not.
+</details>
+
+<details>
+<summary>🔹 12. What is CloudWatch?</summary>
+<br>
+Amazon CloudWatch monitors AWS resources and applications, providing logs, metrics, and alarms.
+</details>
+
+<details>
+<summary>🔹 13. What is the difference between CloudFormation and Terraform?</summary>
+<br>
+CloudFormation is AWS's native Infrastructure as Code (IaC) service, while Terraform is cloud-agnostic and supports multiple providers.
+</details>
+
+<details>
+<summary>🔹 14. What is Route 53?</summary>
+<br>
+Amazon Route 53 is a scalable DNS and domain name management service.
+</details>
+
+<details>
+<summary>🔹 15. What is EBS?</summary>
+<br>
+Amazon EBS (Elastic Block Store) provides persistent block storage for EC2 instances.
+</details>
+
+<details>
+<summary>🔹 16. What is EFS?</summary>
+<br>
+Amazon EFS (Elastic File System) is a scalable, shared file storage for use with EC2 instances.
+</details>
+
+<details>
+<summary>🔹 17. What is an AWS Region and Availability Zone?</summary>
+<br>
+A Region is a geographic area; an Availability Zone is an isolated data center within a region.
+</details>
+
+<details>
+<summary>🔹 18. What is Lambda?</summary>
+<br>
+AWS Lambda is a serverless compute service that lets you run code in response to events without provisioning or managing servers.
+</details>
+
+<details>
+<summary>🔹 19. What is S3 Versioning?</summary>
+<br>
+S3 Versioning allows you to keep multiple versions of an object in the same bucket to prevent accidental deletions or overwrites.
+</details>
+
+<details>
+<summary>🔹 20. What is the Shared Responsibility Model?</summary>
+<br>
+AWS secures the infrastructure; customers are responsible for securing their data, applications, and configurations.
+</details>
 
 ---
 
-> 📘 Keep learning — version control is the backbone of collaboration!
+## ✅ Coming Up Next
+
+➡️ **Terraform 🧱**  
+➡️ **Docker & Kubernetes 🐳**  
+➡️ **CI/CD ⚙️**  
+
+> 📘 _Keep building your cloud confidence — one concept at a time!_
+
 
 
 
