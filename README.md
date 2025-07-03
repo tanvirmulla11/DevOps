@@ -550,6 +550,129 @@ AWS secures the infrastructure; customers are responsible for securing their dat
 
 ---
 
+## ☁️ Azure – DevOps Interview Questions
+
+<details>
+<summary>🔹 1. What is Microsoft Azure?</summary>
+<br>
+Microsoft Azure is a cloud computing platform offering a wide range of services including computing, analytics, storage, and networking.
+</details>
+
+<details>
+<summary>🔹 2. What is the difference between Azure and AWS?</summary>
+<br>
+Both are cloud providers, but Azure integrates better with Microsoft services like Active Directory and Windows Server. AWS offers broader service availability.
+</details>
+
+<details>
+<summary>🔹 3. What is an Azure Resource Group?</summary>
+<br>
+A Resource Group is a container that holds related resources for an Azure solution. It allows for management of those resources as a group.
+</details>
+
+<details>
+<summary>🔹 4. What is Azure Virtual Machine?</summary>
+<br>
+Azure VM provides Infrastructure-as-a-Service (IaaS) that allows you to run virtualized Windows or Linux machines in the cloud.
+</details>
+
+<details>
+<summary>🔹 5. What is Azure DevOps?</summary>
+<br>
+Azure DevOps is a set of development tools for software development teams including pipelines, boards, repos, test plans, and artifacts.
+</details>
+
+<details>
+<summary>🔹 6. What is the difference between Azure DevOps and GitHub Actions?</summary>
+<br>
+Azure DevOps offers a comprehensive suite of services, while GitHub Actions is CI/CD for GitHub repositories, integrated directly into GitHub.
+</details>
+
+<details>
+<summary>🔹 7. What is Azure Active Directory (AAD)?</summary>
+<br>
+Azure AD is Microsoft's cloud-based identity and access management service, used for employee sign-in and access control.
+</details>
+
+<details>
+<summary>🔹 8. What is an Azure Subscription?</summary>
+<br>
+A subscription is an agreement with Azure to use cloud services. It links to billing and provides access to Azure products.
+</details>
+
+<details>
+<summary>🔹 9. What are Availability Sets and Availability Zones?</summary>
+<br>
+Availability Sets protect against hardware failures within a data center. Availability Zones protect against data center-level failures.
+</details>
+
+<details>
+<summary>🔹 10. What is Azure Blob Storage?</summary>
+<br>
+Blob Storage is Azure's object storage solution for unstructured data like images, videos, and documents.
+</details>
+
+<details>
+<summary>🔹 11. What is Azure Kubernetes Service (AKS)?</summary>
+<br>
+AKS is a managed Kubernetes service that simplifies container orchestration in Azure.
+</details>
+
+<details>
+<summary>🔹 12. What is the difference between Azure Functions and Logic Apps?</summary>
+<br>
+Azure Functions are serverless compute services for custom code. Logic Apps are workflow automation tools that use connectors and triggers.
+</details>
+
+<details>
+<summary>🔹 13. What is the Azure CLI?</summary>
+<br>
+Azure CLI is a command-line tool used to manage Azure resources directly from the terminal or command prompt.
+</details>
+
+<details>
+<summary>🔹 14. What is Azure ARM Template?</summary>
+<br>
+ARM (Azure Resource Manager) Templates are JSON files that define infrastructure and configuration for automated deployments.
+</details>
+
+<details>
+<summary>🔹 15. What is Azure Policy?</summary>
+<br>
+Azure Policy helps enforce organizational standards and assess compliance at scale across your Azure environment.
+</details>
+
+<details>
+<summary>🔹 16. What is Azure Monitor?</summary>
+<br>
+Azure Monitor collects and analyzes telemetry data from your Azure and on-premises resources for observability and diagnostics.
+</details>
+
+<details>
+<summary>🔹 17. What is Azure Application Gateway?</summary>
+<br>
+It is a web traffic load balancer that enables you to manage traffic to your web applications using layer 7 routing.
+</details>
+
+<details>
+<summary>🔹 18. What is Azure Key Vault?</summary>
+<br>
+Azure Key Vault is used to securely store secrets, keys, and certificates.
+</details>
+
+<details>
+<summary>🔹 19. What is the use of Azure Pipelines?</summary>
+<br>
+Azure Pipelines provides CI/CD automation to build, test, and deploy applications across environments.
+</details>
+
+<details>
+<summary>🔹 20. What is the Shared Responsibility Model in Azure?</summary>
+<br>
+Azure is responsible for the cloud infrastructure; users are responsible for securing data, applications, and configurations within it.
+</details>
+
+
 ## ✅ Coming Up Next
 
 ➡️ **Terraform 🧱**  
