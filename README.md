@@ -672,10 +672,143 @@ Azure Pipelines provides CI/CD automation to build, test, and deploy application
 Azure is responsible for the cloud infrastructure; users are responsible for securing data, applications, and configurations within it.
 </details>
 
+## 🧱 Terraform – DevOps Interview Questions
+
+<details>
+<summary>🔹 1. What is Terraform?</summary>
+<br>
+Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp that allows you to define and provision infrastructure using a declarative configuration language (HCL).
+</details>
+
+<details>
+<summary>🔹 2. What are the key components of Terraform?</summary>
+<br>
+- Providers (e.g., AWS, Azure, GCP)  
+- Resources  
+- Variables  
+- Modules  
+- State  
+- Outputs
+</details>
+
+<details>
+<summary>🔹 3. What is a Terraform provider?</summary>
+<br>
+A provider is a plugin that Terraform uses to interact with cloud platforms (e.g., AWS, Azure) and other APIs.
+</details>
+
+<details>
+<summary>🔹 4. What is a Terraform state file?</summary>
+<br>
+The state file (`terraform.tfstate`) stores information about the deployed infrastructure and is used to track changes and manage updates.
+</details>
+
+<details>
+<summary>🔹 5. What is the use of `terraform init`?</summary>
+<br>
+Initializes the working directory, downloads providers, and sets up the backend.
+</details>
+
+<details>
+<summary>🔹 6. What does `terraform plan` do?</summary>
+<br>
+It shows what changes will be made to the infrastructure before applying them, serving as a dry-run.
+</details>
+
+<details>
+<summary>🔹 7. What is the command to apply a configuration in Terraform?</summary>
+<br>
+`terraform apply` — it executes the plan and provisions the defined resources.
+</details>
+
+<details>
+<summary>🔹 8. What is the difference between `terraform apply` and `terraform destroy`?</summary>
+<br>
+- `apply` provisions infrastructure  
+- `destroy` tears down infrastructure defined in your configuration
+</details>
+
+<details>
+<summary>🔹 9. What are Terraform modules?</summary>
+<br>
+Modules are reusable Terraform configurations that group related resources together to promote code reusability.
+</details>
+
+<details>
+<summary>🔹 10. What are the benefits of using Terraform?</summary>
+<br>
+- Infrastructure as Code  
+- Multi-cloud support  
+- Version control  
+- Modular and reusable code  
+- Automation and consistency
+</details>
+
+<details>
+<summary>🔹 11. How do you manage secrets in Terraform?</summary>
+<br>
+Avoid storing secrets in code; use tools like AWS Secrets Manager, Vault, or environment variables.
+</details>
+
+<details>
+<summary>🔹 12. What is Terraform backend?</summary>
+<br>
+A backend in Terraform determines how state is loaded and how an operation such as `apply` is executed — e.g., local, remote, S3 with DynamoDB locking.
+</details>
+
+<details>
+<summary>🔹 13. How can you lock Terraform state?</summary>
+<br>
+By using a remote backend like AWS S3 with DynamoDB for state locking and consistency.
+</details>
+
+<details>
+<summary>🔹 14. What is the difference between `terraform refresh` and `terraform plan`?</summary>
+<br>
+- `refresh`: Updates state file with real-world infrastructure  
+- `plan`: Shows proposed changes based on the current state
+</details>
+
+<details>
+<summary>🔹 15. What is a data source in Terraform?</summary>
+<br>
+Data sources allow you to fetch or compute data from existing resources outside Terraform's management.
+</details>
+
+<details>
+<summary>🔹 16. How do you use variables in Terraform?</summary>
+<br>
+Define them in `variables.tf`, pass them via CLI, environment, or `terraform.tfvars` file.
+</details>
+
+<details>
+<summary>🔹 17. What is output in Terraform?</summary>
+<br>
+Outputs display the values of resources after `apply`, useful for sharing values like IPs or URLs.
+</details>
+
+<details>
+<summary>🔹 18. What is the purpose of `.terraform.lock.hcl`?</summary>
+<br>
+It ensures consistent provider versions across different environments or team members.
+</details>
+
+<details>
+<summary>🔹 19. Can Terraform be used with CI/CD?</summary>
+<br>
+Yes, Terraform can be integrated with CI/CD pipelines (e.g., GitHub Actions, Jenkins, GitLab CI) for automated deployments.
+</details>
+
+<details>
+<summary>🔹 20. What is the difference between Terraform and CloudFormation?</summary>
+<br>
+Terraform is multi-cloud and open-source. CloudFormation is AWS-specific. Terraform has better modularity and state management flexibility.
+</details>
+
 
 ## ✅ Coming Up Next
 
-➡️ **Terraform 🧱**  
+➡️ **Ansible 🧱**  
 ➡️ **Docker & Kubernetes 🐳**  
 ➡️ **CI/CD ⚙️**  
 
