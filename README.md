@@ -805,11 +805,136 @@ Yes, Terraform can be integrated with CI/CD pipelines (e.g., GitHub Actions, Jen
 Terraform is multi-cloud and open-source. CloudFormation is AWS-specific. Terraform has better modularity and state management flexibility.
 </details>
 
+## 🐳 Docker – DevOps Interview Questions
+
+<details>
+<summary>🔹 1. What is Docker?</summary>
+<br>
+Docker is a platform for developing, shipping, and running applications in lightweight containers that include everything needed to run the application.
+</details>
+
+<details>
+<summary>🔹 2. What is a Docker container?</summary>
+<br>
+A Docker container is a lightweight, standalone, and executable package of software that includes the application and its dependencies.
+</details>
+
+<details>
+<summary>🔹 3. What is the difference between a Docker image and a container?</summary>
+<br>
+An image is a snapshot of a container, while a container is a running instance of an image.
+</details>
+
+<details>
+<summary>🔹 4. What is Dockerfile?</summary>
+<br>
+A Dockerfile is a script containing instructions to build a Docker image.
+</details>
+
+<details>
+<summary>🔹 5. What is the purpose of the `docker-compose` tool?</summary>
+<br>
+`docker-compose` is used to define and manage multi-container Docker applications using a `docker-compose.yml` file.
+</details>
+
+<details>
+<summary>🔹 6. What command is used to build a Docker image?</summary>
+<br>
+`docker build -t image-name .`
+</details>
+
+<details>
+<summary>🔹 7. How do you run a container from an image?</summary>
+<br>
+`docker run image-name`  
+Or with more options: `docker run -d -p 80:80 --name container-name image-name`
+</details>
+
+<details>
+<summary>🔹 8. What is the difference between `COPY` and `ADD` in Dockerfile?</summary>
+<br>
+`COPY` only copies files/directories. `ADD` can also extract tar files and supports URLs.
+</details>
+
+<details>
+<summary>🔹 9. What is a Docker volume?</summary>
+<br>
+Volumes are used for persisting data generated and used by Docker containers.
+</details>
+
+<details>
+<summary>🔹 10. What is the default network driver in Docker?</summary>
+<br>
+The default driver is `bridge` for standalone containers.
+</details>
+
+<details>
+<summary>🔹 11. How do you list running containers?</summary>
+<br>
+`docker ps` – shows running containers.  
+`docker ps -a` – shows all containers.
+</details>
+
+<details>
+<summary>🔹 12. How do you stop a running container?</summary>
+<br>
+`docker stop container_id_or_name`
+</details>
+
+<details>
+<summary>🔹 13. How do you remove a container?</summary>
+<br>
+`docker rm container_id_or_name`
+</details>
+
+<details>
+<summary>🔹 14. How do you remove an image?</summary>
+<br>
+`docker rmi image_name`
+</details>
+
+<details>
+<summary>🔹 15. What is the use of `.dockerignore` file?</summary>
+<br>
+It works like `.gitignore`, telling Docker which files/folders to ignore when building an image.
+</details>
+
+<details>
+<summary>🔹 16. What is the difference between `CMD` and `ENTRYPOINT` in Dockerfile?</summary>
+<br>
+Both define container execution, but `ENTRYPOINT` is preferred for fixed execution commands; `CMD` provides default arguments.
+</details>
+
+<details>
+<summary>🔹 17. How do you check logs of a container?</summary>
+<br>
+`docker logs container_name`
+</details>
+
+<details>
+<summary>🔹 18. What are Docker namespaces?</summary>
+<br>
+Namespaces isolate containers, allowing them to have their own network, PID, user, mount points, etc.
+</details>
+
+<details>
+<summary>🔹 19. What is Docker Swarm?</summary>
+<br>
+Docker Swarm is Docker’s native orchestration tool to manage a cluster of Docker Engines as a single virtual system.
+</details>
+
+<details>
+<summary>🔹 20. What is the difference between Docker and a Virtual Machine?</summary>
+<br>
+Containers share the host OS kernel and are lightweight, while VMs include full guest OS and are heavier in resource usage.
+</details>
+
+
 
 ## ✅ Coming Up Next
 
 ➡️ **Ansible 🧱**  
-➡️ **Docker & Kubernetes 🐳**  
+➡️ **Kubernetes 🐳**  
 ➡️ **CI/CD ⚙️**  
 
 > 📘 _Keep building your cloud confidence — one concept at a time!_
