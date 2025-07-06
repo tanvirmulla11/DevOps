@@ -930,11 +930,149 @@ Containers share the host OS kernel and are lightweight, while VMs include full 
 </details>
 
 
+## 🐳 Kubernetes – DevOps Interview Questions
 
+This section contains 20 essential Kubernetes interview questions and answers — designed for DevOps, SRE, and Cloud Engineer interviews in 2025.
+
+---
+<details>
+<summary>🔹 1. What is Kubernetes?</summary>
+<br>
+Kubernetes is an open-source container orchestration platform used to automate the deployment, scaling, and management of containerized applications.
+</details>
+
+<details>
+<summary>🔹 2. What is a Pod in Kubernetes?</summary>
+<br>
+A Pod is the smallest deployable unit in Kubernetes. It can host one or more containers that share the same network namespace and storage.
+</details>
+
+<details>
+<summary>🔹 3. What is etcd?</summary>
+<br>
+etcd is a distributed key-value store used to persist all cluster configuration and state in Kubernetes.
+</details>
+
+<details>
+<summary>🔹 4. What is the difference between Deployment and StatefulSet?</summary>
+<br>
+- **Deployment**: Used for stateless apps. Supports rolling updates and replicas.  
+- **StatefulSet**: Used for stateful apps. Maintains stable pod identity and persistent storage.
+</details>
+
+<details>
+<summary>🔹 5. What are Kubernetes Services?</summary>
+<br>
+A Kubernetes Service is an abstraction that defines a logical set of Pods and a policy by which to access them. Types include ClusterIP, NodePort, and LoadBalancer.
+</details>
+
+<details>
+<summary>🔹 6. What is kube-apiserver?</summary>
+<br>
+kube-apiserver is the front-end for the Kubernetes control plane. It validates and configures data for the API objects.
+</details>
+
+<details>
+<summary>🔹 7. What are taints and tolerations?</summary>
+<br>
+- **Taints**: Prevent Pods from being scheduled on certain nodes.  
+- **Tolerations**: Allow Pods to be scheduled on nodes with matching taints.
+</details>
+
+<details>
+<summary>🔹 8. What is a Namespace in Kubernetes?</summary>
+<br>
+Namespaces provide a mechanism for isolating groups of resources within a single cluster.
+</details>
+
+<details>
+<summary>🔹 9. What is kube-proxy?</summary>
+<br>
+kube-proxy maintains network rules on nodes and handles communication to Pods across the cluster.
+</details>
+
+<details>
+<summary>🔹 10. What is ConfigMap vs Secret?</summary>
+<br>
+- **ConfigMap**: Stores non-sensitive configuration data.  
+- **Secret**: Stores sensitive information like passwords and API keys in base64 encoded form.
+</details>
+
+<details>
+<summary>🔹 11. What is HPA (Horizontal Pod Autoscaler)?</summary>
+<br>
+HPA automatically scales the number of Pods based on CPU utilization or custom metrics.
+</details>
+
+<details>
+<summary>🔹 12. What is a DaemonSet?</summary>
+<br>
+A DaemonSet ensures that a copy of a Pod runs on all (or selected) nodes in the cluster.
+</details>
+
+<details>
+<summary>🔹 13. What is a Headless Service?</summary>
+<br>
+A Headless Service is a Service without a ClusterIP. It enables direct access to the Pod's IP addresses.
+</details>
+
+<details>
+<summary>🔹 14. How does Kubernetes do service discovery?</summary>
+<br>
+Kubernetes uses DNS and environment variables to enable Pods to discover each other and access Services.
+</details>
+
+<details>
+<summary>🔹 15. What is a Helm Chart?</summary>
+<br>
+A Helm Chart is a collection of YAML templates used to define, install, and upgrade complex Kubernetes applications.
+</details>
+
+<details>
+<summary>🔹 16. What is the difference between a Node and a Cluster?</summary>
+<br>
+- **Node**: A physical or virtual machine that runs Pods.  
+- **Cluster**: A set of nodes managed by the Kubernetes control plane.
+</details>
+
+<details>
+<summary>🔹 17. What is a ReplicaSet?</summary>
+<br>
+A ReplicaSet ensures that a specified number of Pod replicas are running at any time.
+</details>
+
+<details>
+<summary>🔹 18. Types of Services in Kubernetes?</summary>
+<br>
+- **ClusterIP** (default) – internal-only access  
+- **NodePort** – exposes the service on each node's IP at a static port  
+- **LoadBalancer** – provisioned with external load balancer  
+- **ExternalName** – maps service to a DNS name
+</details>
+
+<details>
+<summary>🔹 19. How to troubleshoot a Pod in Pending state?</summary>
+<br>
+- Check node resources using `kubectl describe node`.  
+- Check events using `kubectl describe pod <pod-name>`.  
+- Ensure correct storage class, tolerations, and affinity rules.
+</details>
+
+<details>
+<summary>🔹 20. How do you secure a Kubernetes cluster?</summary>
+<br>
+- Enable RBAC (Role-Based Access Control)  
+- Use Network Policies  
+- Regularly update cluster components  
+- Limit container privileges  
+- Use Secrets for sensitive data  
+- Enable audit logging and monitoring
+</details>
+
+---
 ## ✅ Coming Up Next
 
 ➡️ **Ansible 🧱**  
-➡️ **Kubernetes 🐳**  
 ➡️ **CI/CD ⚙️**  
 
 > 📘 _Keep building your cloud confidence — one concept at a time!_
