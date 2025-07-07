@@ -1070,9 +1070,80 @@ A ReplicaSet ensures that a specified number of Pod replicas are running at any 
 </details>
 
 ---
+# 🛠️ Ansible – DevOps Interview Questions
+<details>
+<summary>1. What is Ansible?</summary>
+
+Ansible is an open-source automation tool for configuration management, application deployment, and task automation. It uses YAML for playbooks and SSH for agentless communication.
+
+</details>
+
+<details>
+<summary>2. How does Ansible work?</summary>
+
+Ansible connects to target nodes over SSH, pushes modules to execute tasks, and removes them after execution, ensuring agentless automation.
+
+</details>
+
+<details>
+<summary>3. What is an Ansible Playbook?</summary>
+
+Playbooks are YAML files that define a set of tasks to be executed on managed hosts. They are reusable and used for multi-step automation.
+
+</details>
+
+<details>
+<summary>4. What are Ansible modules?</summary>
+
+Modules are reusable scripts used to perform specific tasks like installing packages, copying files, restarting services, etc.
+
+</details>
+
+<details>
+<summary>5. What is an inventory file in Ansible?</summary>
+
+It lists the hosts or groups of hosts on which Ansible performs tasks. It can be static (INI/YAML) or dynamic (scripts or plugins).
+
+</details>
+
+<details>
+<summary>6. What are roles in Ansible?</summary>
+
+Roles help in structuring playbooks by organizing tasks, variables, handlers, and templates into reusable directories.
+
+</details>
+
+<details>
+<summary>7. Difference between ad-hoc commands and playbooks?</summary>
+
+- **Ad-hoc commands** are one-liners for quick tasks.
+- **Playbooks** are YAML-based scripts used for long-term automation.
+
+</details>
+
+<details>
+<summary>8. What is the use of Ansible Galaxy?</summary>
+
+Ansible Galaxy is a repository for finding, sharing, and reusing Ansible roles created by the community.
+
+</details>
+
+<details>
+<summary>9. What are facts in Ansible?</summary>
+
+Facts are system properties (e.g., IP, OS) gathered using the `setup` module and can be used in playbooks as variables.
+
+</details>
+
+<details>
+<summary>10. What is Ansible Vault?</summary>
+
+Ansible Vault is used to encrypt secrets like passwords or keys.  
+</details>
+
 ## ✅ Coming Up Next
 
-➡️ **Ansible 🧱**  
+➡️ **Jenkins 🧱**  
 ➡️ **CI/CD ⚙️**  
 
 > 📘 _Keep building your cloud confidence — one concept at a time!_
