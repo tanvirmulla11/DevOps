@@ -426,6 +426,7 @@ Use `git log` to view the commit history.
 </details>
 
 ---
+
 # ☁️ AWS – DevOps Interview Questions
 
 <details>
@@ -1140,6 +1141,88 @@ Facts are system properties (e.g., IP, OS) gathered using the `setup` module and
 
 Ansible Vault is used to encrypt secrets like passwords or keys.  
 </details>
+
+# 🐳 Docker Interview Questions and Answers
+
+<details>
+<summary><strong>1. What is Docker?</strong></summary>
+
+Docker is an open-source platform that allows developers to automate the deployment of applications inside lightweight, portable containers. It packages code along with its dependencies and environment for consistency across environments.
+
+</details>
+
+<details>
+<summary><strong>2. What is the difference between a Docker image and a Docker container?</strong></summary>
+
+- A **Docker image** is a read-only template with instructions for creating a container.
+- A **Docker container** is a runnable instance of an image that includes the application and its dependencies.
+
+</details>
+
+<details>
+<summary><strong>3. What is a Dockerfile?</strong></summary>
+
+A Dockerfile is a text file containing instructions used by Docker to automate the building of an image. It specifies the base image, commands to install packages, copy files, and define startup behavior.
+
+</details>
+
+<details>
+<summary><strong>4. What is Docker Compose?</strong></summary>
+
+Docker Compose is a tool that allows you to define and manage multi-container Docker applications using a `docker-compose.yml` file. It simplifies the process of setting up services, networks, and volumes.
+
+</details>
+
+<details>
+<summary><strong>5. What is Docker Hub?</strong></summary>
+
+Docker Hub is Docker’s public registry where users can share, distribute, and pull container images. It offers official images and supports public and private repositories.
+
+</details>
+
+<details>
+<summary><strong>6. How does Docker architecture work?</strong></summary>
+
+Docker uses a client-server architecture:
+- The **Docker Client** sends commands to the **Docker Daemon**, which builds, runs, and manages containers.
+- Docker uses **Images**, stored in **Registries**, to create **Containers**.
+
+</details>
+
+<details>
+<summary><strong>7. How to persist data in Docker?</strong></summary>
+
+To persist data in Docker, you can use:
+- **Volumes** (managed by Docker)
+- **Bind mounts** (host directory mounted inside container)
+
+These methods ensure data is not lost when the container stops.
+
+</details>
+
+<details>
+<summary><strong>8. What are Docker volumes?</strong></summary>
+
+Docker volumes are directories managed by Docker and stored on the host machine to persist and share data between containers.
+
+</details>
+
+<details>
+<summary><strong>9. What is the difference between bind mounts and volumes?</strong></summary>
+
+- **Bind Mount**: You specify the exact path on the host.
+- **Volume**: Managed by Docker in `/var/lib/docker/volumes/`.
+
+Volumes are preferred for better management and portability.
+
+</details>
+
+<details>
+<summary><strong>10. How do you expose ports in Docker?</strong></summary>
+
+Use the `-p` or `--publish` flag:
+</details>
+---
 
 ## ✅ Coming Up Next
 
