@@ -1224,10 +1224,193 @@ Use the `-p` or `--publish` flag:
 </details>
 ---
 
-## ✅ Coming Up Next
+# 🚀 CI/CD Interview Questions & Answers
 
-➡️ **Jenkins 🧱**  
-➡️ **CI/CD ⚙️**  
+This document contains **20 commonly asked CI/CD interview questions and answers** designed for Cloud & DevOps Engineers. Ideal for anyone preparing for DevOps roles.
+
+---
+
+<details>
+<summary><strong>1. What is CI/CD?</strong></summary>
+
+CI/CD stands for **Continuous Integration** and **Continuous Deployment/Delivery**. CI focuses on automating code integration, while CD automates the release process. Together, they ensure faster and safer software delivery.
+</details>
+
+---
+
+<details>
+<summary><strong>2. What are the benefits of CI/CD?</strong></summary>
+
+- Faster release cycles  
+- Reduced manual effort  
+- Higher code quality  
+- Easier debugging  
+- Immediate feedback loops  
+</details>
+
+---
+
+<details>
+<summary><strong>3. What tools are commonly used in CI/CD pipelines?</strong></summary>
+
+Popular tools include:
+- **Jenkins**
+- **GitHub Actions**
+- **GitLab CI/CD**
+- **CircleCI**
+- **Travis CI**
+- **AWS CodePipeline**
+</details>
+
+---
+
+<details>
+<summary><strong>4. What is a pipeline in CI/CD?</strong></summary>
+
+A pipeline is a set of automated steps for building, testing, and deploying applications.
+</details>
+
+---
+
+<details>
+<summary><strong>5. What is the difference between Continuous Delivery and Continuous Deployment?</strong></summary>
+
+- **Continuous Delivery**: Code is deployed to staging or production only after manual approval.  
+- **Continuous Deployment**: Every change passes all stages and is automatically deployed to production.
+</details>
+
+---
+
+<details>
+<summary><strong>6. What is a build?</strong></summary>
+
+A build is the process of converting source code into an executable format.
+</details>
+
+---
+
+<details>
+<summary><strong>7. What is artifact in CI/CD?</strong></summary>
+
+An artifact is a compiled binary or package (e.g., `.jar`, `.zip`, `.deb`) generated during a build process.
+</details>
+
+---
+
+<details>
+<summary><strong>8. What is version control, and how does it relate to CI?</strong></summary>
+
+Version control (like Git) manages code changes. CI relies on it to trigger pipelines upon code commits.
+</details>
+
+---
+
+<details>
+<summary><strong>9. How do you trigger a CI/CD pipeline?</strong></summary>
+
+Pipelines are triggered by:
+- Code commits or pull requests  
+- Scheduled jobs  
+- Manual triggers  
+- Webhooks
+</details>
+
+---
+
+<details>
+<summary><strong>10. What is a webhook in CI/CD?</strong></summary>
+
+A webhook notifies the CI/CD system of an event, like a Git push, to trigger automated processes.
+</details>
+
+---
+
+<details>
+<summary><strong>11. What is a self-hosted runner?</strong></summary>
+
+A self-hosted runner is a machine you configure to run your pipeline jobs (as opposed to cloud-hosted runners).
+</details>
+
+---
+
+<details>
+<summary><strong>12. What are stages and jobs in a pipeline?</strong></summary>
+
+- **Stages** are logical groups of tasks (e.g., Build, Test, Deploy).  
+- **Jobs** are tasks within those stages.
+</details>
+
+---
+
+<details>
+<summary><strong>13. What is the role of Docker in CI/CD?</strong></summary>
+
+Docker provides consistent environments for builds and deployments. It enables container-based CI/CD.
+</details>
+
+---
+
+<details>
+<summary><strong>14. What is Canary Deployment?</strong></summary>
+
+Canary deployment releases an update to a small portion of users to verify before full rollout.
+</details>
+
+---
+
+<details>
+<summary><strong>15. What is Blue-Green Deployment?</strong></summary>
+
+It involves two environments (Blue & Green). One is live, and the other is prepared with updates. Switching happens after testing.
+</details>
+
+---
+
+<details>
+<summary><strong>16. What is rollback in deployment?</strong></summary>
+
+Rollback is reverting to the previous stable version after a failed deployment.
+</details>
+
+---
+
+<details>
+<summary><strong>17. How can you ensure pipeline security?</strong></summary>
+
+- Secure secrets (use vaults)  
+- Scan for vulnerabilities  
+- Implement role-based access  
+- Avoid hardcoding credentials
+</details>
+
+---
+
+<details>
+<summary><strong>18. What is Infrastructure as Code in CI/CD?</strong></summary>
+
+IaC tools like Terraform or CloudFormation automate infra setup as part of CI/CD workflows.
+</details>
+
+---
+
+<details>
+<summary><strong>19. How to monitor CI/CD pipelines?</strong></summary>
+
+Use built-in dashboards (Jenkins, GitHub Actions), logs, and integrations with monitoring tools like Prometheus, Grafana.
+</details>
+
+---
+
+<details>
+<summary><strong>20. What is the difference between CI and DevOps?</strong></summary>
+
+CI is a practice within DevOps focused on integration. DevOps is a broader culture promoting collaboration, automation, and monitoring.
+</details>
+
+---
+
+📂 Add this to your DevOps Interview Guide or CI/CD Project Repo.
+
 
 > 📘 _Keep building your cloud confidence — one concept at a time!_
 
