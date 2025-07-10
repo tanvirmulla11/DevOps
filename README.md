@@ -426,6 +426,116 @@ Use `git log` to view the commit history.
 </details>
 
 ---
+# ☁️ GCP Interview Questions & Answers
+<details>
+<summary>1️⃣ What is Google Cloud Platform (GCP)?</summary>
+GCP is a suite of cloud computing services provided by Google. It offers IaaS, PaaS, and SaaS solutions, including compute, storage, networking, Big Data, and AI/ML services.
+</details>
+
+<details>
+<summary>2️⃣ What is Google Compute Engine?</summary>
+Google Compute Engine (GCE) is GCP’s IaaS component, allowing users to create and manage virtual machines (VMs) on Google’s infrastructure.
+</details>
+
+<details>
+<summary>3️⃣ What are GCP Projects?</summary>
+A GCP Project is a logical container that groups together resources like VMs, APIs, billing, and IAM. Projects provide isolation and billing boundaries.
+</details>
+
+<details>
+<summary>4️⃣ What is the role of IAM in GCP?</summary>
+IAM (Identity and Access Management) controls who can access what in a GCP project. It assigns roles to users and service accounts to manage permissions.
+</details>
+
+<details>
+<summary>5️⃣ What is a Service Account?</summary>
+A service account is a special type of Google account used by applications or VMs to interact with GCP APIs securely.
+</details>
+
+<details>
+<summary>6️⃣ Difference between Preemptible and Standard VM instances?</summary>
+Preemptible VMs are short-lived, cost-effective instances that can be terminated by GCP anytime (after 24h max). Standard VMs are stable, long-running instances.
+</details>
+
+<details>
+<summary>7️⃣ What is Google Cloud Storage?</summary>
+It’s a globally unified object storage service for unstructured data like files, images, backups, and logs.
+</details>
+
+<details>
+<summary>8️⃣ Explain GCP’s networking components.</summary>
+Key components include:
+- VPC (Virtual Private Cloud)
+- Subnets
+- Firewalls
+- Routes
+- Cloud Load Balancing
+</details>
+
+<details>
+<summary>9️⃣ What is GKE?</summary>
+Google Kubernetes Engine (GKE) is a managed Kubernetes service for running containerized applications in production.
+</details>
+
+<details>
+<summary>🔟 What is Cloud Pub/Sub?</summary>
+It’s a messaging service that enables asynchronous communication between services using a publisher-subscriber model.
+</details>
+
+<details>
+<summary>🔢 11. What is the use of Cloud Functions?</summary>
+Cloud Functions is a serverless compute service for running event-driven functions without managing infrastructure.
+</details>
+
+<details>
+<summary>🔢 12. What is BigQuery?</summary>
+BigQuery is GCP’s fully managed data warehouse designed for fast SQL analytics over large datasets.
+</details>
+
+<details>
+<summary>🔢 13. How does GCP handle regions and zones?</summary>
+Regions are specific geographical locations; each region has multiple zones. Zones are isolated locations within a region.
+</details>
+
+<details>
+<summary>🔢 14. Difference between GCP roles: Owner, Editor, and Viewer?</summary>
+- Owner: Full access to all resources
+- Editor: Modify existing resources
+- Viewer: Read-only access
+</details>
+
+<details>
+<summary>🔢 15. What is Cloud Run?</summary>
+Cloud Run is a fully managed compute platform that automatically scales containers in response to HTTP requests.
+</details>
+
+<details>
+<summary>🔢 16. What is GCP Marketplace?</summary>
+It is a platform to deploy third-party solutions, like WordPress, Jenkins, and MongoDB, directly to GCP.
+</details>
+
+<details>
+<summary>🔢 17. What is Stackdriver (now called Cloud Operations)?</summary>
+It is a suite of tools for monitoring, logging, tracing, and diagnostics of applications and infrastructure.
+</details>
+
+<details>
+<summary>🔢 18. How is billing handled in GCP?</summary>
+Billing is linked to GCP projects and can be managed via budgets, alerts, and cost analysis tools in the Billing Console.
+</details>
+
+<details>
+<summary>🔢 19. What is Cloud Spanner?</summary>
+A globally distributed, horizontally scalable, and strongly consistent relational database service.
+</details>
+
+<details>
+<summary>🔢 20. What is the Shared VPC in GCP?</summary>
+It allows multiple projects to share a common Virtual Private Cloud network, simplifying policy enforcement and connectivity.
+</details>
+
+---
+
 
 # ☁️ AWS – DevOps Interview Questions
 
