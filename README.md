@@ -1519,6 +1519,146 @@ CI is a practice within DevOps focused on integration. DevOps is a broader cultu
 
 ---
 
+# 📈 DevOps Methodology, Practices & Agile – Interview Questions
+## 📘 Interview Questions & Answers
+
+<details>
+<summary>🔹 1. What is DevOps?</summary>
+DevOps is a cultural and technical movement that aims to unify software development (Dev) and IT operations (Ops). It emphasizes collaboration, automation, continuous integration & delivery (CI/CD), and monitoring to deliver software faster and more reliably.
+</details>
+
+<details>
+<summary>🔹 2. What are the core principles of DevOps?</summary>
+- Culture of collaboration  
+- Automation  
+- Continuous feedback  
+- Shared responsibility  
+- Iterative improvement  
+- Monitoring and observability
+</details>
+
+<details>
+<summary>🔹 3. How does DevOps differ from Agile?</summary>
+Agile focuses on software development practices (sprints, scrum, iterations). DevOps expands on Agile by including operations — emphasizing deployment, automation, and system reliability post-development.
+</details>
+
+<details>
+<summary>🔹 4. What are the stages in a DevOps lifecycle?</summary>
+- Plan  
+- Develop  
+- Build  
+- Test  
+- Release  
+- Deploy  
+- Operate  
+- Monitor
+</details>
+
+<details>
+<summary>🔹 5. What is CI/CD?</summary>
+CI/CD stands for Continuous Integration and Continuous Delivery/Deployment. It involves automatically building, testing, and deploying code changes, ensuring faster and reliable software delivery.
+</details>
+
+<details>
+<summary>🔹 6. What is Shift Left Testing?</summary>
+Shift Left Testing refers to testing earlier in the software development lifecycle, enabling faster bug detection, reducing cost, and improving quality.
+</details>
+
+<details>
+<summary>🔹 7. What is Infrastructure as Code (IaC)?</summary>
+IaC is the practice of managing and provisioning infrastructure using code (e.g., Terraform, CloudFormation). It helps automate deployments and ensures consistent environments.
+</details>
+
+<details>
+<summary>🔹 8. What are some popular DevOps tools?</summary>
+- Version Control: Git  
+- CI/CD: Jenkins, GitHub Actions, GitLab CI  
+- Configuration Management: Ansible, Chef  
+- Containerization: Docker, Kubernetes  
+- Monitoring: Prometheus, Grafana  
+- IaC: Terraform, Pulumi
+</details>
+
+<details>
+<summary>🔹 9. What is the role of a DevOps Engineer?</summary>
+A DevOps Engineer builds and maintains CI/CD pipelines, manages infrastructure automation, ensures system reliability, integrates monitoring, and fosters collaboration between teams.
+</details>
+
+<details>
+<summary>🔹 10. What is a feedback loop in DevOps?</summary>
+A feedback loop provides real-time insights between development, testing, and operations, helping teams rapidly detect and correct issues throughout the delivery lifecycle.
+</details>
+
+<details>
+<summary>🔹 11. What are Agile ceremonies?</summary>
+- Daily stand-ups  
+- Sprint planning  
+- Sprint review  
+- Retrospective  
+These promote transparency, collaboration, and iterative delivery.
+</details>
+
+<details>
+<summary>🔹 12. What is the difference between Continuous Delivery and Continuous Deployment?</summary>
+- **Continuous Delivery**: Ensures every code change is deployable; manual approval may be needed.  
+- **Continuous Deployment**: Automatically deploys every change after passing tests, no manual step.
+</details>
+
+<details>
+<summary>🔹 13. What are Microservices in DevOps?</summary>
+Microservices are small, loosely coupled services that work independently and are deployed separately. DevOps pipelines often manage and scale them efficiently.
+</details>
+
+<details>
+<summary>🔹 14. What is Mean Time to Recovery (MTTR)?</summary>
+MTTR measures how quickly a system can recover from a failure. Lower MTTR indicates better resilience.
+</details>
+
+<details>
+<summary>🔹 15. What is Trunk-Based Development?</summary>
+It is a source control strategy where all developers commit to a single branch (trunk), enabling faster integration and fewer merge conflicts.
+</details>
+
+<details>
+<summary>🔹 16. What are some DevOps anti-patterns?</summary>
+- Treating DevOps as a team, not a culture  
+- Siloed Dev and Ops roles  
+- Lack of automation  
+- Manual deployments  
+- Ignoring security (no DevSecOps)
+</details>
+
+<details>
+<summary>🔹 17. What is a value stream in DevOps?</summary>
+A value stream is the series of steps an organization uses to deliver value to the customer, from idea to production.
+</details>
+
+<details>
+<summary>🔹 18. What is DevSecOps?</summary>
+DevSecOps integrates security into the DevOps process, ensuring secure code practices, scanning, and policy enforcement throughout the pipeline.
+</details>
+
+<details>
+<summary>🔹 19. What metrics are used to measure DevOps success?</summary>
+- Deployment Frequency  
+- Lead Time for Changes  
+- Change Failure Rate  
+- Mean Time to Recovery (MTTR)  
+- Customer satisfaction (CSAT)
+</details>
+
+<details>
+<summary>🔹 20. What is the CALMS model in DevOps?</summary>
+**CALMS** stands for:
+- **Culture**
+- **Automation**
+- **Lean**
+- **Measurement**
+- **Sharing**  
+It’s a framework for evaluating DevOps maturity and adoption.
+</details>
+
+---
 📂 Add this to your DevOps Interview Guide or CI/CD Project Repo.
 
 
