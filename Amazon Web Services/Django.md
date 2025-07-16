@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔗 URL Shortener using Flask
 
 This is a simple **URL Shortener Web App** built using Python's Flask framework.  
@@ -88,3 +89,42 @@ Feel free to ⭐ star the repo or connect if you’re also exploring **cloud + b
 
 
 
+=======
+# 🔗 URL Shortener using Flask
+
+This is a simple **URL Shortener Web App** built using Python's Flask framework.  
+It takes a long URL and generates a short version that redirects to the original link.
+
+---
+
+## 🎯 What This Project Does
+
+- ✅ Accepts a long URL from the user
+- 🔁 Generates a unique short code
+- 📥 Stores the mapping in a database (SQLite)
+- 🌐 Redirects users when they visit the short URL
+
+---
+
+## 🛠 Tech Stack
+
+- **Backend**: Python, Flask  
+- **Frontend**: HTML, CSS, Bootstrap  
+- **Database**: SQLite  
+- **Templating**: Jinja2  
+
+---
+
+## 🗂 Project Structure
+---
+URL_Shortner/
+│
+├── app.py # Main Flask app (routes, logic)
+├── requirements.txt # Required Python packages
+│
+└── templates/ # HTML Templates
+├── base.html # Common layout for all pages
+├── index.html # Input form to paste long URL
+└── result.html # Displays generated short URL
+---
+>>>>>>> e385147 (initial commit)
