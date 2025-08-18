@@ -42,4 +42,11 @@ User john was successfully created with an expiry date of 2024-01-28.
 
 Task completed and validated in KodeKloud Lab.
 
+# Images
+
+<img width="1919" height="1050" alt="Screenshot 2025-08-18 112454" src="https://github.com/user-attachments/assets/06ef601d-edd1-4f4a-af42-de7d84597435" />
+
+<img width="1919" height="995" alt="Screenshot 2025-08-18 112558" src="https://github.com/user-attachments/assets/1f7cdc13-7e86-4daa-966a-7ed870a3cfaf" />
+
+
 
