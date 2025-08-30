@@ -51,4 +51,10 @@ docker --version
 
 ### Verified by running the hello-world container.
 
+# images
+<img width="1919" height="825" alt="Screenshot 2025-08-27 110618" src="https://github.com/user-attachments/assets/f8bfa9aa-c862-4837-93e4-99f95c007848" />
+<img width="1919" height="973" alt="Screenshot 2025-08-27 110639" src="https://github.com/user-attachments/assets/25b61cd0-a08a-46be-9f7b-6f60f77d3bf1" />
+
+
+
 ### ⚡ Task Completed – Docker Level 1 (Task 1) in KodeKloud
