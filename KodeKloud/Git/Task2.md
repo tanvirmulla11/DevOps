@@ -10,37 +10,44 @@
 ssh natasha@ststor01
 ```
 
-### 2.Switch to the Root User
+### 2. Switch to the Root User
 ```bash
 sudo su
 ```
 
-### 3.Navigate to the Git Repository
+### 3. Navigate to the Git Repository
 ```bash
 cd /opt/games.git
 ```
 
-### 4.Check Repository Status
+### 4. Check Repository Status
 ```bash
 git status
 ```
 
-### 5.List All Branches
+### 5. List All Branches
 ```bash
 git branch
 ```
 
-### 6.Switch to the Master Branch
+### 6. Switch to the Master Branch
 ```bash
 git checkout master
 ```
 
-### 7.Create and Switch to a New Branch
+### 7. Create and Switch to a New Branch
 ```bash
 git checkout -b <new-branch-name>
 ```
 
-### 8.Verify Current Branch and Status
+### 8. Verify Current Branch and Status
 ```bash
 git status
 ```
+## ✅ Results
+
+### Successfully reviewed the repository’s current state.
+
+### Identified and switched between branches.
+
+### Created a new branch and confirmed the active branch.
