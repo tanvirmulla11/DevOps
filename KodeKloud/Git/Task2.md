@@ -51,3 +51,12 @@ git status
 ### Identified and switched between branches.
 
 ### Created a new branch and confirmed the active branch.
+---
+## 💡 Best Practices
+
+### Use meaningful branch names (e.g., feature-auth, bugfix-header-issue).
+
+### Regularly run git status to stay aware of your working directory state.
+
+### Always ensure you are on the correct branch before committing changes.
+---
