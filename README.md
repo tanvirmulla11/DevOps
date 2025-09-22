@@ -1,6 +1,6 @@
 # 📘 DevOps Interview Guide
 
-Welcome to the DevOps Interview Preparation Repository. This guide helps you revise the most commonly asked questions with clear answers — specially designed for freshers and job seekers in Cloud and DevOps roles.
+Welcome to the DevOps Interview Preparation Repository. This guide helps you revise the most commonly asked questions with clear answers  specially designed for freshers and job seekers in Cloud and DevOps roles.
 ---
 
 ## 📚 Table of Contents
