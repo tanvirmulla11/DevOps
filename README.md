@@ -20,7 +20,6 @@ Welcome to the DevOps Interview Preparation Repository. This guide helps you rev
 ---
 
 ## Linux 🐧
-
 <details>
 <summary>🔹 1. What is Linux?</summary>
 <br>
