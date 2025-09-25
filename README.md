@@ -4,7 +4,6 @@ Welcome to the DevOps Interview Preparation Repository. This guide helps you rev
 ---
 
 ## 📚 Table of Contents
-
 - [Linux](#linux-🐧)
 - [Networking](#networking-🌐)
 - [Git](#git-🔧)
