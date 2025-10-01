@@ -15,7 +15,6 @@ Welcome to the DevOps Interview Preparation Repository. This guide helps you rev
 - [DevOps Methodology, Practices & Agile](#devops-methodology-practices--agile-📈)
 
 ---
-
 ## Linux 🐧
 <details>
 <summary>🔹 1. What is Linux?</summary>
