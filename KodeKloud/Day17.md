@@ -54,3 +54,45 @@ CREATE DATABASE kodekloud_db6;
 -- Grant Permissions
 GRANT ALL PRIVILEGES ON DATABASE kodekloud_db6 TO kodekloud_aim;
 ```
+### Step 3: Verification
+
+### While still inside psql, I verified my work using meta-commands.
+```bash
+\du   -- Check if the user was created
+\l    -- Check databases and privileges
+\q    -- Exit PostgreSQL
+```
+## After confirming, I exited the postgres user session — successfully completing the task.
+## 💡 Why Did I Do This? (The What & Why)
+
+### This task simulates a real-world DevOps scenario where a secure database environment must be prepared for an application. Proper user and privilege management in databases is vital for:
+
+### Data isolation between services
+
+### Preventing unauthorized access
+
+### Easier maintenance and troubleshooting
+
+## 🔍 Deep Dive: The Principle of Least Privilege in Databases
+
+### The Principle of Least Privilege (PoLP) means giving users only the access they need — nothing more.
+### In databases, this minimizes risks such as:
+
+### Accidental data deletion or modification
+
+### Unauthorized data exposure
+
+### Compromised accounts having full access
+
+### By granting only essential permissions, we build a safer and more resilient system.
+
+## ⚠️ Common Pitfalls
+
+### Forgetting to end SQL statements with a semicolon (;)
+
+### Running commands without switching to the postgres user
+
+### Granting privileges before the database or user exists
+
+### Not verifying permissions after setup
+---
