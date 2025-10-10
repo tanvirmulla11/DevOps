@@ -167,3 +167,23 @@ stdb01 ansible_host=172.16.239.10 ansible_user=peter ansible_ssh_pass=Sp!dy ansi
         name: httpd
         state: restarted
 ```
+### 3️⃣ The Execution
+```bash
+# Install Ansible
+sudo dnf install ansible -y
+
+# Run the playbook
+ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i inventory.ini playbook.yaml
+```
+### After successful execution, I configured the Load Balancer (LBR) to point to the app servers and confirmed the success message.
+
+## 💥 Post-Mortem: Why My Manual Attempts Failed
+
+### Manually configuring each server led to inconsistencies.
+
+### Forgetting dependencies or missing a service start caused repeated failures.
+
+### Human error in DB credentials and firewall settings wasted hours.
+
+### Manual setups are not scalable or repeatable — automation solved all that.
+---
