@@ -50,3 +50,120 @@ stapp03 ansible_host=172.16.238.12 ansible_user=banner ansible_ssh_pass=BigGr33n
 [db_server]
 stdb01 ansible_host=172.16.239.10 ansible_user=peter ansible_ssh_pass=Sp!dy ansible_become_pass=Sp!dy
 
+```
+### 2️⃣ The Playbook (playbook.yaml)
+---
+```bash
+- name: Configure DB Server
+  hosts: db_server
+  become: yes
+  tasks:
+    - name: Install MariaDB dependencies
+      yum:
+        name:
+          - mariadb-server
+          - python3-PyMySQL
+        state: present
+
+    - name: Start and enable MariaDB service
+      service:
+        name: mariadb
+        state: started
+        enabled: yes
+
+    - name: Create database
+      community.mysql.mysql_db:
+        name: kodekloud_db1
+        state: present
+        login_unix_socket: /var/lib/mysql/mysql.sock
+
+    - name: Create user with privileges
+      community.mysql.mysql_user:
+        name: kodekloud_cap
+        password: GyQkFRVNr3
+        priv: "kodekloud_db1.*:ALL"
+        host: '%'
+        state: present
+        login_unix_socket: /var/lib/mysql/mysql.sock
+
+    - name: Install firewalld
+      yum:
+        name: firewalld
+        state: present
+
+    - name: Start and enable firewalld
+      service:
+        name: firewalld
+        state: started
+        enabled: yes
+
+    - name: Ensure firewall allows MySQL connections
+      firewalld:
+        service: mysql
+        state: enabled
+        permanent: yes
+        immediate: yes
+
+- name: Configure App Servers
+  hosts: app_servers
+  become: yes
+  tasks:
+    - name: Install required packages
+      yum:
+        name:
+          - httpd
+          - php
+          - php-mysqlnd
+        state: present
+
+    - name: Configure Apache to listen on the correct port
+      lineinfile:
+        path: /etc/httpd/conf/httpd.conf
+        regexp: '^Listen '
+        line: 'Listen 8087'
+      notify: restart httpd
+
+    - name: Install firewalld
+      yum:
+        name: firewalld
+        state: present
+
+    - name: Start and enable firewalld
+      service:
+        name: firewalld
+        state: started
+        enabled: yes
+
+    - name: Ensure firewall allows the correct port
+      firewalld:
+        port: 8087/tcp
+        state: enabled
+        permanent: yes
+        immediate: yes
+
+    - name: Create the test PHP page
+      copy:
+        content: |
+          <?php
+          $link = mysqli_connect('stdb01', 'kodekloud_cap', 'GyQkFRVNr3', 'kodekloud_db1');
+          if (!$link) {
+              die('Could not connect: ' . mysqli_connect_error());
+          }
+          echo 'App is able to connect to the database using user kodekloud_cap';
+          mysqli_close($link);
+          ?>
+        dest: /var/www/html/index.php
+        mode: 0644
+
+    - name: Start and enable httpd service
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+  handlers:
+    - name: restart httpd
+      service:
+        name: httpd
+        state: restarted
+```
