@@ -54,4 +54,56 @@ sudo vi /etc/httpd/conf/httpd.conf
 # Start and enable Apache
 sudo systemctl start httpd
 sudo systemctl enable httpd
+```
+### 🔹 Phase 2: Transferring the Website Files (from Jump Host)
+```bash
+# From the jump host, transfer both directories to App Server 1
+scp -r /home/thor/ecommerce /home/thor/games tony@stapp01:/home/tony
+```
+### 🔹 Phase 3: Deploying the Websites (on App Server 1)
+# Move the directories into Apache's document root
+```bash
+sudo mv ecommerce /var/www/html/
+sudo mv games /var/www/html/
+```
+### 🔹 Phase 4: Verification
+# Test the ecommerce site
+```bash
+curl http://localhost:6400/ecommerce/
+````
+# Test the games site
+```bash
+curl http://localhost:6400/games/
+```
 
+### ✅ If both commands return HTML content successfully, your setup is correct!
+
+## 💡 Why Did I Do This?
+
+### Hosting multiple small websites on a single Apache server demonstrates how to efficiently manage resources and organize content without ### setting up complex virtual hosts.
+### It’s an essential skill for system administrators handling multi-site environments.
+
+## 🔍 Deep Dive: How Apache Maps URLs to Directories
+
+### Apache serves files from the directory specified in its configuration (DocumentRoot), typically /var/www/html.
+
+### When a user requests:
+```bash
+http://localhost:6400/ecommerce/
+```
+
+Apache maps it to:
+```bash
+/var/www/html/ecommerce/
+```
+
+### and serves the index.html file inside that folder.
+
+## ⚠️ Common Pitfalls
+
+## ❌ Forgetting to change the Listen port in httpd.conf.
+
+## 🔄 Not restarting Apache after configuration changes.
+
+## 📂 Wrong file paths or missing directory permissions.
+---
