@@ -1,56 +1,91 @@
-# Day 45: Resolve Dockerfile Issues
+# 🚀 Docker Compose Deployment – PHP + MariaDB Stack
 
-### Connect to App Server 3
+This project deploys a two-container stack (`php_host` + `mysql_host`) on App Server 3 using Docker Compose.
+
+---
+
+## 🧩 Requirements
+
+- **Web Service**
+  - Container Name: `php_host`
+  - Image: `php:apache`
+  - Ports: `8082:80`
+  - Volume: `/var/www/html:/var/www/html`
+
+- **Database Service**
+  - Container Name: `mysql_host`
+  - Image: `mariadb:latest`
+  - Ports: `3306:3306`
+  - Volume: `/var/lib/mysql:/var/lib/mysql`
+  - Environment:
+    - `MYSQL_DATABASE=database_host`
+    - `MYSQL_USER=nautilus_user`
+    - `MYSQL_PASSWORD=ComplexPass@123`
+    - `MYSQL_ROOT_PASSWORD=Root@123`
+
+---
+
+## ⚙️ Steps to Deploy
+
+## 1️⃣ Connect to App Server 3
 ```bash
 ssh banner@stapp03
+# Password: BigGr33n
 ```
-### Switch to root user
+## 2️⃣ Create Required Directories
 ```bash
-sudo -i
+sudo mkdir -p /opt/security /var/www/html /var/lib/mysql
 ```
-
-### Navigate to the Dockerfile location
+## 3️⃣ Create Docker Compose File
 ```bash
-cd /opt/docker
-```
+sudo vi /opt/security/docker-compose.yml
 
-### List files to confirm Dockerfile exists
+version: '3.8'
+
+services:
+  web:
+    image: php:apache
+    container_name: php_host
+    ports:
+      - "8082:80"
+    volumes:
+      - /var/www/html:/var/www/html
+
+  db:
+    image: mariadb:latest
+    container_name: mysql_host
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: database_host
+      MYSQL_USER: nautilus_user
+      MYSQL_PASSWORD: ComplexPass@123
+      MYSQL_ROOT_PASSWORD: Root@123
+```
+## 4️⃣ Launch Containers
 ```bash
-ls -l
+cd /opt/security
+sudo docker compose up -d
 ```
-
-### View and fix the Dockerfile
+## 5️⃣ Verify
 ```bash
-cat Dockerfile
-vi Dockerfile
+sudo docker ps
 ```
-## ✅ Corrected Dockerfile
 
-### Here’s the fixed version:
+### You should see:
 ```bash
-FROM httpd:2.4.43
 
-# Update Apache to listen on port 8080
-RUN sed -i "s/Listen 80/Listen 8080/g" /usr/local/apache2/conf/httpd.conf
-
-# Enable SSL modules
-RUN sed -i '/LoadModule ssl_module modules\/mod_ssl.so/s/^#//g' /usr/local/apache2/conf/httpd.conf
-RUN sed -i '/LoadModule socache_shmcb_module modules\/mod_socache_shmcb.so/s/^#//g' /usr/local/apache2/conf/httpd.conf
-RUN sed -i '/Include conf\/extra\/httpd-ssl.conf/s/^#//g' /usr/local/apache2/conf/httpd.conf
-
-# Copy SSL certificates
-COPY certs/server.crt /usr/local/apache2/conf/server.crt
-COPY certs/server.key /usr/local/apache2/conf/server.key
-
-# Copy website files
-COPY html/index.html /usr/local/apache2/htdocs/
-
-🔧 Then build the image:
-cd /opt/docker
-docker build -t httpd-secure .
+php_host     Up  (0.0.0.0:8082->80/tcp)
+mysql_host   Up  (0.0.0.0:3306->3306/tcp)
 ```
-## ✅ Verify:
+## 6️⃣ Test Web Access
 ```bash
-docker images
+curl http://stapp03:8082/
+````
+
+### Output:
+```bash
+Welcome to xFusionCorp Industries!
 ```
----
