@@ -129,3 +129,34 @@ Includes:
 - Universal control plane
 
 - Orchestration and runtime management
+
+## 💻 Docker Desktop
+
+- Native application for Windows and Mac.
+
+- Includes the full Docker Engine, CLI, Docker Compose, and Kubernetes integration.
+
+## 🔁 Summary
+
+| Concept          | Key Takeaway                                              |
+| ---------------- | --------------------------------------------------------- |
+| Containers       | Lightweight, isolated environments sharing host OS kernel |
+| Docker           | Tool to package and run applications in containers        |
+| Docker Hub       | Default public registry for container images              |
+| Image            | Blueprint for containers                                  |
+| Container        | Running instance of an image                              |
+| DevOps Benefit   | Streamlined collaboration between Dev and Ops             |
+| Editions         | Community (Free) and Enterprise (Paid)                    |
+| Platform Support | Windows, Mac, Linux, Cloud platforms                      |
+
+
+## 🧠 Final Thought
+
+Docker revolutionizes software deployment by enabling consistent, portable, and scalable environments — empowering teams to build once, run anywhere.
+
+## ✍️ Author
+
+### Tanvir Mulla
+**Learning DevOps through KodeKloud Docker Course**
+
+### Day 1 completed — Fundamentals of Containers and Docker!
