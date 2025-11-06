@@ -67,9 +67,65 @@ Using the command:
 docker run <image_name>
 ```
 
+
 Docker pulls the image from Docker Hub and runs it as a container.
 
 ## Example:
 
 We can pull multiple instances like MongoDB, Redis, or Node.js.
 A load balancer can manage these instances — if one fails, a new one is automatically started.
+
+## 🧩 Images vs Containers
+| Concept       | Description                                                                          |
+| ------------- | ------------------------------------------------------------------------------------ |
+| **Image**     | A **template** or **package** used to create containers (like VM templates).         |
+| **Container** | A **running instance** of an image, isolated with its own environment and processes. |
+
+## Example Scenario
+
+Developers create applications and hand them to Ops teams.
+
+Ops teams may struggle to configure dependencies manually.
+
+With Docker, developers and Ops collaborate to create a Dockerfile describing the environment.
+
+The Dockerfile is used to build an image.
+
+This image runs the same way on any OS or server, ensuring consistency across development and production.
+
+### 💡 This shared workflow enhances collaboration between Dev and Ops — aligning perfectly with DevOps culture.
+
+## 🧱 Docker Editions
+### 1️⃣ Community Edition (CE)
+
+- Free and open-source.
+
+- Includes essential Docker tools.
+
+Available for:
+
+- Windows
+
+- Mac
+
+- Linux
+
+- AWS
+
+- Azure
+
+- Cloud platforms
+
+### 2️⃣ Enterprise Edition (EE)
+
+- Paid and enterprise-supported version.
+
+Includes:
+
+- Image management
+
+- Image security
+
+- Universal control plane
+
+- Orchestration and runtime management
