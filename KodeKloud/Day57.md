@@ -1,4 +1,4 @@
-Day 57: Print Environment Variables
+## Day 57: Print Environment Variables
 # 🧩 Kubernetes Pod: print-envars-greeting
 
 This guide demonstrates how to create a **Kubernetes Pod** that prints greeting messages using **environment variables**.  
