@@ -1,4 +1,4 @@
-Day 59: Troubleshoot Deployment issues in Kubernetes
+# Day 59: Troubleshoot Deployment issues in Kubernetes
 
 # 🚀 Redis Deployment Recovery on Kubernetes (Nautilus DevOps Task)
 
