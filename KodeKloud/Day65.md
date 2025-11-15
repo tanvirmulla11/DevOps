@@ -1,4 +1,4 @@
-Day 65: Deploy Redis Deployment on Kubernetes
+# Day 65: Deploy Redis Deployment on Kubernetes
 # 🚀 Kubernetes Redis Deployment — Nautilus DevOps Task
 
 ## 🎯 Objective
