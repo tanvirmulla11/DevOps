@@ -1,170 +1,214 @@
+
+
+
 # 📘 Docker Course – Day 2 Notes
 
-Professional, structured, and ready for GitHub or writing in your notebook.
-
----
-
-## 🚀 **1. `docker run` Command**
+## 📌 1. `docker run`
 
 * The `docker run` command is used to **run a container from an image**.
-* Example: `docker run nginx`
+* Example:
 
-  * If the **nginx image exists locally**, Docker uses it.
-  * If the **image does not exist**, Docker automatically **pulls it from Docker Hub**.
-  * The image is downloaded **only once**. Next time, Docker uses the **cached local copy**.
+  ```bash
+  docker run nginx
+  ```
+
+  * If the image exists locally → container starts.
+  * If not, Docker pulls the image from Docker Hub automatically (only first time).
 
 ---
 
-## 🐳 **2. `docker ps` – View Running Containers**
+## 📌 2. `docker ps`
 
 * Shows **all running containers**.
-* Displays details like:
+* Displays:
 
   * Container ID
-  * Image name used
-  * Current status
-  * Container name (Docker assigns a random name if not provided)
+  * Image name
+  * Status
+  * Container name (randomly generated)
+* Command:
 
-### ➤ `docker ps -a`
+  ```bash
+  docker ps
+  ```
 
-* Shows **all containers**, including:
+### Show **all** containers (running + stopped/exited)
 
-  * Running
-  * Stopped
-  * Exited
+```bash
+docker ps -a
+```
 
 ---
 
-## 🛑 **3. Stopping & Removing Containers**
+## 📌 3. Stop & Remove Containers
 
-### ✔ Stop a running container
+### Stop a running container
 
+```bash
+docker stop <container_name>
 ```
-docker stop <container-name>
-```
 
-### ✔ Remove a stopped container
+### Remove a stopped container
 
-```
+```bash
 docker rm silly_sammet
 ```
 
-(Replace `silly_sammet` with the actual container name.)
+### Remove multiple containers
+
+```bash
+docker rm <id1> <id2> <id3>
+```
 
 ---
 
-## 📦 **4. Working With Images**
+## 📌 4. Docker Images
 
-### ✔ List all available images
+### Show images
 
-```
+```bash
 docker images
 ```
 
-### ✔ Remove an image
+### Remove image
 
-```
+```bash
 docker rmi nginx
 ```
 
-> Note: You must delete all containers based on this image before removing it.
+⚠️ You must delete all containers based on that image before removing it.
 
-### ✔ Pull images without running
+### Only pull (download) an image
 
-```
+```bash
 docker pull nginx
 docker pull ubuntu
 ```
 
 ---
 
-## 🐧 **5. Running Ubuntu Containers**
+## 📌 5. Why Ubuntu Container Exits Immediately?
 
-* Ubuntu image is a **base OS image**, not an application.
-* Running: `docker run ubuntu` → container **starts and exits immediately**.
+* Containers are **not full OS** → they run **a single process**.
+* They stop when the main process exits.
+* Running ubuntu:
 
-Why?
-Containers **run only as long as the main process is running**.
+  ```bash
+  docker run ubuntu
+  ```
 
-* Since Ubuntu has **no default long-running process**, it exits.
+  → It exits immediately because it has **no task to run**.
 
-### Example with a command:
+### Example with a command
 
-```
+```bash
 docker run ubuntu sleep 5
 ```
 
-* The container runs `sleep 5` → waits 5 seconds → exits.
+Container runs for 5 seconds → stops.
 
 ---
 
-## 🔧 **6. Running Commands Inside a Running Container**
+## 📌 6. `docker exec` – Run Commands in a Running Container
 
-* Use `docker exec` to run commands **inside a running container**.
+Used when you want to **run a command inside a running container**.
 
-Example: View `/etc/hosts` inside a running Ubuntu container:
+Example:
 
-```
+```bash
 docker exec distracted_mcclintock cat /etc/hosts
 ```
 
 ---
 
-## 🌐 **7. Running a Web Application Container**
+## 📌 7. Foreground vs Detached Mode
 
-Example image: `kodekloud/simple-webapp`
-It runs a web server on **port 8080**.
+### Foreground (attached mode)
 
-### ▶ Running in **attached mode** (foreground)
-
-```
+```bash
 docker run kodekloud/simple-webapp
 ```
 
-* Shows container logs/output on your screen.
-* Press **CTRL + C** → stops the container.
+* Shows logs/output on screen.
+* `Ctrl + C` stops container.
 
-### ▶ Running in **detached mode** (background)
+### Detached mode (background)
 
-```
+```bash
 docker run -d kodekloud/simple-webapp
 ```
 
 * Runs in background.
-* Use `docker ps` to check the container.
+* Use `docker ps` to check status.
 
-### ▶ Attach to running container
+### Attach to running container
 
-```
-docker attach <container-id>
-```
-
-> You can use only the **first few characters** of the container ID.
-
-Example:
-
-```
-docker attach a043d
+```bash
+docker attach <container_id>
 ```
 
 ---
 
-## 📝 **Summary Table**
+## 📌 8. Interactive Terminal (`-it`)
 
-| Command                    | Description                        |
-| -------------------------- | ---------------------------------- |
-| `docker run nginx`         | Run container from nginx image     |
-| `docker ps`                | See running containers             |
-| `docker ps -a`             | See all containers                 |
-| `docker stop <name>`       | Stop a container                   |
-| `docker rm <name>`         | Remove a container                 |
-| `docker images`            | List images                        |
-| `docker rmi <image>`       | Remove image                       |
-| `docker pull <image>`      | Download image only                |
-| `docker exec <name> <cmd>` | Execute a command inside container |
-| `docker run -d <image>`    | Run container in detached mode     |
-| `docker attach <id>`       | Attach to running container        |
+```bash
+docker run -it centos bash
+```
+
+* Opens terminal **inside the container**.
 
 ---
 
-Just tell me!
+## 📌 9. Troubleshooting
+
+If you try to remove an image in use:
+
+```
+Error: unable to remove repository reference "ubuntu"
+Reason: container exists using this image
+```
+
+Solution:
+
+1. Stop container
+2. Remove container
+3. Remove image
+
+---
+
+## 📌 10. `docker exec` OS Info Example
+
+```bash
+docker exec <id_or_name> cat /etc/*release*
+```
+
+Shows OS version inside container.
+
+---
+
+## 📌 11. Assign Custom Container Name
+
+```bash
+docker run -d --name webapp nginx:1.14-alpine
+```
+
+---
+
+# ✅ Summary Table
+
+| Command                     | Purpose                        |
+| --------------------------- | ------------------------------ |
+| `docker run IMAGE`          | Run a container from image     |
+| `docker pull IMAGE`         | Only download image            |
+| `docker ps`                 | List running containers        |
+| `docker ps -a`              | List all containers            |
+| `docker stop CONTAINER`     | Stop running container         |
+| `docker rm CONTAINER`       | Remove stopped container       |
+| `docker rmi IMAGE`          | Remove image                   |
+| `docker exec CONTAINER CMD` | Run command in container       |
+| `docker run -d IMAGE`       | Run container in background    |
+| `docker run -it IMAGE bash` | Open terminal inside container |
+
+---
+
+
