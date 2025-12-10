@@ -18,3 +18,17 @@ One of the core responsibilities of a DevOps engineer is designing and implement
 Proper network design ensures high availability, low latency, and efficient communication across the infrastructure—critical for modern distributed systems.
 
 ---
+## ## 2. Application Deployment
+
+DevOps engineers handle the deployment of applications into production environments. Networking knowledge is essential for:
+
+- Configuring servers and endpoint connectivity  
+- Setting up load balancers (Nginx, HAProxy, AWS ELB) to distribute traffic  
+- Managing ingress/egress in Kubernetes clusters  
+- Ensuring secure communication between services  
+- Troubleshooting connectivity issues during deployments  
+
+**Why it matters:**  
+Smooth deployments depend on well-configured network paths, correct routing, and secure communication channels.
+
+---
