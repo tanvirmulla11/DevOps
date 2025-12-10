@@ -32,3 +32,25 @@ DevOps engineers handle the deployment of applications into production environme
 Smooth deployments depend on well-configured network paths, correct routing, and secure communication channels.
 
 ---
+## ## 3. Automation in Networking
+
+Automation is at the heart of DevOps. Networking automation tools such as:
+
+- **Ansible**  
+- **Puppet**  
+- **Chef**  
+- **Terraform (for cloud networking)**  
+
+These tools help automate tasks like configuring routers, firewalls, load balancers, and cloud VPC components.
+
+**Key benefits:**
+
+- Reduced human error  
+- Consistent configuration  
+- Faster deployments  
+- Improved scalability  
+
+**Why it matters:**  
+Automating network tasks ensures environment consistency and speeds up provisioning across development, testing, and production phases.
+
+---
