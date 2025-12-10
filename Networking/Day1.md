@@ -4,7 +4,7 @@ Networking is a fundamental skill for DevOps engineers, as it directly impacts h
 
 ---
 
-## ## 1. Infrastructure Design
+ ## 1. Infrastructure Design
 
 One of the core responsibilities of a DevOps engineer is designing and implementing infrastructure that supports software development and deployment. This includes:
 
@@ -18,7 +18,7 @@ One of the core responsibilities of a DevOps engineer is designing and implement
 Proper network design ensures high availability, low latency, and efficient communication across the infrastructure—critical for modern distributed systems.
 
 ---
-## ## 2. Application Deployment
+ ## 2. Application Deployment
 
 DevOps engineers handle the deployment of applications into production environments. Networking knowledge is essential for:
 
@@ -32,7 +32,7 @@ DevOps engineers handle the deployment of applications into production environme
 Smooth deployments depend on well-configured network paths, correct routing, and secure communication channels.
 
 ---
-## ## 3. Automation in Networking
+ ## 3. Automation in Networking
 
 Automation is at the heart of DevOps. Networking automation tools such as:
 
@@ -55,7 +55,7 @@ Automating network tasks ensures environment consistency and speeds up provision
 
 ---
 
-## ## 4. Monitoring and Troubleshooting
+## 4. Monitoring and Troubleshooting
 
 Monitoring infrastructure and applications is a critical DevOps responsibility. Networking knowledge is required to:
 
@@ -69,7 +69,7 @@ Monitoring infrastructure and applications is a critical DevOps responsibility. 
 Proactive monitoring helps maintain system performance and reduces downtime, ensuring a reliable user experience.
 
 ---
-## ## Summary
+## Summary
 
 Networking is deeply integrated into DevOps processes. A solid understanding of networking enables DevOps engineers to:
 
