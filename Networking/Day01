@@ -54,3 +54,18 @@ These tools help automate tasks like configuring routers, firewalls, load balanc
 Automating network tasks ensures environment consistency and speeds up provisioning across development, testing, and production phases.
 
 ---
+
+## ## 4. Monitoring and Troubleshooting
+
+Monitoring infrastructure and applications is a critical DevOps responsibility. Networking knowledge is required to:
+
+- Monitor network traffic and latency  
+- Identify bottlenecks, packet loss, or misconfigured routes  
+- Use tools such as Prometheus, Grafana, Wireshark, Netstat, Tcpdump  
+- Understand logs related to load balancers, firewalls, and DNS  
+- Diagnose outages and restore service availability quickly  
+
+**Why it matters:**  
+Proactive monitoring helps maintain system performance and reduces downtime, ensuring a reliable user experience.
+
+---
