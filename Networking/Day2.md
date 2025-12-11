@@ -18,3 +18,52 @@ Presentation Layer
 
 Application Layer
 
+## 1. Physical Layer
+
+The Physical Layer deals with the actual transmission of raw bits over a communication medium.
+
+Functions
+
+Defines physical characteristics of interfaces & media
+
+Bit representation (0s and 1s)
+
+Data rate control
+
+Bit synchronization
+
+Line configuration (point-to-point or multi-point)
+
+Transmission modes (simplex, half-duplex, full-duplex)
+
+Physical topology (bus, star, ring, mesh)
+
+## 2. Data Link Layer
+
+The Data Link Layer ensures reliable node-to-node delivery of data.
+
+Functions
+
+Framing
+
+Physical addressing (MAC)
+
+Error control
+
+Flow control
+
+Access control (who can transmit at a given time)
+
+## 3. Network Layer
+
+The Network Layer is responsible for logical addressing and routing to deliver data across networks.
+
+Functions
+
+Routing (path determination)
+
+Logical addressing (IP)
+
+Congestion control
+
+Billing/accounting in some networks
