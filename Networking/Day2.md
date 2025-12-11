@@ -105,3 +105,29 @@ Data encoding and formatting
 Encryption and decryption
 
 Compression and decompression
+
+## 7. Application Layer
+
+Provides services directly to end users and applications.
+
+Functions
+
+File transfer services
+
+Email services
+
+Directory services (DNS, LDAP)
+
+Network resource sharing
+
+## 📌 Summary
+Layer	Key Responsibility
+7. Application	User-level services (email, file transfer, web)
+6. Presentation	Data formatting, encryption, compression
+5. Session	Session management, dialog control
+4. Transport	Reliable delivery, ports, segmentation
+3. Network	Routing and logical addressing
+2. Data Link	Framing, MAC addressing, error control
+1. Physical	Transmission of raw bits
+## 📘 Conclusion
+The OSI Model helps understand how data flows across networks by dividing communication into seven layers. Each layer performs specific functions, ensuring reliable and structured communication between devices.
