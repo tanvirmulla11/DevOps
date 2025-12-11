@@ -67,3 +67,41 @@ Logical addressing (IP)
 Congestion control
 
 Billing/accounting in some networks
+
+## 4. Transport Layer
+
+Ensures reliable process-to-process communication.
+
+Functions
+
+Service point addressing (port numbers)
+
+Segmentation and reassembly
+
+Flow control
+
+Error control
+
+Reliable or unreliable transport (TCP/UDP)
+
+## 5. Session Layer
+
+Manages communication sessions between two systems.
+
+Functions
+
+Dialog control (who sends, who receives)
+
+Synchronization (checkpoints in data stream)
+
+## 6. Presentation Layer
+
+Translates data between the application layer and the network.
+
+Functions
+
+Data encoding and formatting
+
+Encryption and decryption
+
+Compression and decompression
