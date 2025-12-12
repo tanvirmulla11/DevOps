@@ -25,3 +25,14 @@ IP may fragment it into smaller pieces depending on network MTU.
 Each fragment travels independently through routers.
 
 At the destination, fragments are reassembled into the original datagram.
+
+## 📌 Datagram (IP Packet)
+
+In IP, packets are called datagrams.
+
+A datagram contains two parts:
+| Part       | Description                                           |
+| ---------- | ----------------------------------------------------- |
+| **Header** | 20–60 bytes; contains routing and control information |
+| **Data**   | The actual payload                                    |
+
