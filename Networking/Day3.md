@@ -136,6 +136,20 @@ Routing control
 
 Timestamps
 
+## 🏷️ IP Addressing
+
+In addition to physical (MAC) addresses, the Internet requires a logical addressing scheme.
+
+An IPv4 address = 32 bits (4 bytes)
+It contains 3 parts:
+
+Class Type
+
+Network ID (NetID)
+
+Host ID (HostID)
+
+The size of each part varies by address class (A, B, C, D, E).
 Security
 
 Alignment
