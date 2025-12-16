@@ -38,3 +38,9 @@ IPv4 addresses are divided into **five different classes** based on their struct
 - **Usage:** Video streaming, online conferencing, group communication
 
 ---
+### 🔹 Class E
+- **Starting Bit Pattern:** `1111`
+- **Purpose:** Reserved for experimental and future use
+- **Usage:** Research and testing only
+
+---
