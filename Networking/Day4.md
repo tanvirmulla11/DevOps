@@ -24,3 +24,11 @@ IPv4 addresses are divided into **five different classes** based on their struct
 - **Usage:** Universities, large enterprises
 
 ---
+### 🔹 Class C
+- **Starting Bit Pattern:** `110`
+- **Network ID:** 3 bytes  
+- **Host ID:** 1 byte  
+- **Host Capacity:** Small networks
+- **Usage:** Small organizations, LANs
+
+---
