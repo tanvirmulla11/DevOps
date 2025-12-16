@@ -32,3 +32,9 @@ IPv4 addresses are divided into **five different classes** based on their struct
 - **Usage:** Small organizations, LANs
 
 ---
+### 🔹 Class D
+- **Starting Bit Pattern:** `1110`
+- **Purpose:** Multicast addressing
+- **Usage:** Video streaming, online conferencing, group communication
+
+---
