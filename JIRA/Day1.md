@@ -20,3 +20,16 @@ A professional and beginner-friendly guide explaining **JIRA**, **Agile methodol
 - Improve team collaboration and visibility
 
 ---
+## 🔹 JIRA + Integrations
+
+### ✅ JIRA + GitHub
+- Automatically link commits to JIRA issues
+- Track code changes for each task
+- Improve traceability between code and work items
+
+### ✅ JIRA + Slack
+- Get real-time notifications in Slack
+- Receive updates when issues are created, moved, or completed
+- Faster communication between teams
+
+---
