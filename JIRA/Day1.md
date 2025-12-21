@@ -12,3 +12,11 @@ A professional and beginner-friendly guide explaining **JIRA**, **Agile methodol
 - Helps teams track work, bugs, tasks, and progress
 
 ---
+## 🔹 Why JIRA is Used?
+- Track project progress
+- Assign tasks to team members
+- Follow Agile methodology
+- Integrate with tools like **GitHub** and **Slack**
+- Improve team collaboration and visibility
+
+---
