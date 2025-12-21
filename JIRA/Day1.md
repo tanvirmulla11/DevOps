@@ -33,3 +33,18 @@ A professional and beginner-friendly guide explaining **JIRA**, **Agile methodol
 - Faster communication between teams
 
 ---
+## 🔹 Project Management Methodologies
+
+### 🟦 Waterfall Model (Old Approach)
+- Sequential process
+- One task must be completed before starting the next
+- No flexibility
+- Not suitable for changing requirements
+
+---
+
+### 🟩 Agile Methodology (Modern Approach)
+- Work is divided into small parts
+- Flexible and iterative
+- Continuous improvement
+- Faster delivery and feedback
