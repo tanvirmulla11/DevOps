@@ -8,3 +8,12 @@ Jira is developed by **:contentReference[oaicite:0]{index=0}** and is widely use
 It is suitable for both **small teams** working on simple applications and **large enterprises** managing complex, multi-team projects.
 
 ---
+## 🎯 Primary Uses of Jira
+
+Jira is mainly used for:
+
+1. **Project Management**  
+2. **Issue & Bug Tracking**  
+3. **Agile Software Development**
+
+---
