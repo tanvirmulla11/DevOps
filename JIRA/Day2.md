@@ -17,3 +17,9 @@ Jira is mainly used for:
 3. **Agile Software Development**
 
 ---
+## ⚙️ Key Features of Jira
+
+### 🔄 Customizable Workflows
+Workflows in Jira define how tasks move from start to finish. These workflows can be customized according to the team’s process.
+
+**Example Bug-Fix Workflow:**
