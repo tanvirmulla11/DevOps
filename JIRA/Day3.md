@@ -7,3 +7,17 @@ Jira offers various reports that show:
 - How many tasks are **completed**
 - How many tasks are **in progress**
 - How many tasks are **yet to be started**
+
+These reports help teams:
+- Track project performance
+- Identify bottlenecks
+- Plan future sprints more effectively
+- Improve overall project management
+
+Common Jira reports include:
+- Sprint Report
+- Burndown Chart
+- Velocity Chart
+- Issue Progress Report
+
+---
