@@ -45,3 +45,12 @@ Creating a Jira account is a simple process. Follow the steps below to get start
 
 ### Step 1: Sign Up for Jira
 - Open your web browser and visit:
+
+### Step 2: Create an Atlassian Account
+- Enter your email address.
+- Click **Sign up**.
+- Follow the prompts to complete your account creation.
+
+### Step 3: Set Up Your Jira Site
+- Choose a unique site name.
+- Your Jira site URL will look like:
