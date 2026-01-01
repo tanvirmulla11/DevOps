@@ -4,3 +4,16 @@
 Jira is a powerful project management tool developed by Atlassian, widely used for tracking tasks, managing workflows, and supporting Agile development. This document explains how to create and organize a project in Jira using a sample web application project called **Wanderlust Deployment**.
 
 ---
+## 1. Create Your First Project
+
+### Step 1: Create a New Project
+1. Log in to your Jira account.
+2. Click on **Create Project**.
+3. Choose a suitable project template (Scrum or Kanban, based on your workflow).
+4. Enter the **Project Name**.
+   - Example: **Wanderlust Deployment**
+5. (Optional) Enter a **Project Key**.
+   - The project key is a unique identifier for the project.
+6. Click on **Create** to finalize the project setup.
+
+---
