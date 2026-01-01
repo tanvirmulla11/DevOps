@@ -17,3 +17,11 @@ Jira is a powerful project management tool developed by Atlassian, widely used f
 6. Click on **Create** to finalize the project setup.
 
 ---
+## 2. Project Example – Wanderlust Deployment
+
+Assume you are developing a new web application named **Wanderlust**.  
+To manage its tasks and deployment activities, you create a Jira project titled **“Wanderlust Deployment”**.
+
+This project will help track development, testing, and deployment tasks in a structured manner.
+
+---
