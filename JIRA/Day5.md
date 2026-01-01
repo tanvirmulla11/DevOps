@@ -25,3 +25,17 @@ To manage its tasks and deployment activities, you create a Jira project titled 
 This project will help track development, testing, and deployment tasks in a structured manner.
 
 ---
+## 3. Explore Jira Interface
+
+After creating the project, explore the Jira interface to understand its features.
+
+### Key Areas to Explore
+- **Dashboard** – Overview of project progress and key metrics  
+- **Backlog** – List of all tasks, stories, and epics  
+- **Boards** – Visual representation of task flow  
+- **Issues** – Individual tasks or bugs  
+- **QuickStart Panel** – Step-by-step guidance for beginners  
+
+The **QuickStart Panel** is especially useful for new users as it provides guided instructions to configure and manage the project efficiently.
+
+---
