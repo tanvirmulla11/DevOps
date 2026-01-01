@@ -39,3 +39,19 @@ After creating the project, explore the Jira interface to understand its feature
 The **QuickStart Panel** is especially useful for new users as it provides guided instructions to configure and manage the project efficiently.
 
 ---
+## 4. Edit or Add Workflow Columns
+
+To manage tasks effectively, customize the board by adding or editing columns based on your workflow.
+
+### Recommended Columns for Wanderlust Deployment
+
+| Column Name | Description |
+|------------|------------|
+| **STORY** | High-level tasks or epics that define major features |
+| **READY** | Tasks that are fully defined and ready to be picked up |
+| **TO DO** | Tasks that need to be started |
+| **IN PROGRESS** | Tasks currently being worked on |
+| **REVIEW** | Tasks completed and waiting for review or testing |
+| **DONE** | Tasks that are completed and verified |
+
+---
