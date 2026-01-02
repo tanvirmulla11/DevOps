@@ -42,3 +42,79 @@ Install and configure the GitHub for Jira application to enable issue tracking a
 **Assignee:** Team Member
 
 ---
+### 5. Connect Jira to GitHub Repository
+**Description:**  
+Link Jira with the GitHub repository to sync issues, commits, and pull requests.
+
+**Assignee:** Team Member
+
+---
+
+## 🔄 WORKFLOW STATUS
+
+### 🟦 READY
+Tasks are moved to **READY** once they are clearly defined and ready to be picked up by the team.
+
+- Review Existing Code and Dockerfile  
+- Validate Kubernetes YAML Files  
+- Set Up GitHub Actions Workflow  
+- Install GitHub for Jira App  
+- Connect Jira to GitHub Repository  
+
+---
+
+### 🟨 TO DO
+Tasks planned but not yet started.
+
+- Review Existing Code and Dockerfile  
+- Validate Kubernetes YAML Files  
+- Set Up GitHub Actions Workflow  
+
+---
+
+### 🟧 IN PROGRESS
+Tasks currently being worked on by the team.
+
+- Review Existing Code and Dockerfile  
+- Validate Kubernetes YAML Files  
+- Set Up GitHub Actions Workflow  
+- Install GitHub for Jira App  
+- Connect Jira to GitHub Repository  
+
+**Team:**  
+- Shubham  
+- Train With Shubham  
+
+---
+
+### 🟪 REVIEW
+Tasks completed and pending verification or peer review.
+
+- Review Existing Code and Dockerfile  
+- Validate Kubernetes YAML Files  
+- Set Up GitHub Actions Workflow  
+- Install GitHub for Jira App  
+- Connect Jira to GitHub Repository  
+
+---
+
+### 🟩 DONE
+Tasks reviewed, verified, and successfully completed.
+
+- Review Existing Code and Dockerfile  
+- Validate Kubernetes YAML Files  
+- Set Up GitHub Actions Workflow  
+- Install GitHub for Jira App  
+- Connect Jira to GitHub Repository  
+
+---
+
+## ✅ SUMMARY
+
+- Jira Story broken down into clear, actionable tasks  
+- Tasks tracked across **READY → TO DO → IN PROGRESS → REVIEW → DONE**  
+- Ensures visibility, accountability, and smooth DevOps workflow integration  
+
+---
+
+**Author:** Tanvir Mulla  
