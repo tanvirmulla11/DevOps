@@ -35,3 +35,10 @@ Create or verify the GitHub Actions workflow file to enable CI/CD deployment.
 **Assignee:** Team Member
 
 ---
+### 4. Install GitHub for Jira App
+**Description:**  
+Install and configure the GitHub for Jira application to enable issue tracking and commit linking.
+
+**Assignee:** Team Member
+
+---
