@@ -28,3 +28,10 @@ Review `deployment.yaml` and `service.yaml` files for correctness, consistency, 
 **Assignee:** Team Member
 
 ---
+### 3. Set Up GitHub Actions Workflow
+**Description:**  
+Create or verify the GitHub Actions workflow file to enable CI/CD deployment.
+
+**Assignee:** Team Member
+
+---
