@@ -21,3 +21,10 @@ Ensure the application codebase and Dockerfile are properly structured and follo
 **Assignee:** Team Member
 
 ---
+### 2. Validate Kubernetes YAML Files
+**Description:**  
+Review `deployment.yaml` and `service.yaml` files for correctness, consistency, and readiness for deployment.
+
+**Assignee:** Team Member
+
+---
