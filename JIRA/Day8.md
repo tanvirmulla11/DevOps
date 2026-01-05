@@ -95,3 +95,84 @@ deploy:
    - name: Deploy to Kubernetes
      run: echo "Deploy step here"
 ```
+## 📌 Status
+
+✅ Workflow verified / created
+
+🔄 Moved to REVIEW
+
+## ✅ Task 4: Install GitHub for Jira App
+## 🎯 Objective
+
+Enable GitHub–Jira integration for issue tracking and development visibility.
+
+## 📝 Steps Performed
+
+Navigated to Jira Settings.
+
+Selected Apps → Find new apps.
+
+Searched for GitHub for Jira.
+
+Clicked Get it now.
+
+Followed the prompts to complete installation.
+
+## 📌 Status
+
+✅ App installed successfully
+
+🔄 Moved to REVIEW
+
+## ✅ Task 5: Connect Jira to GitHub Repository
+## 🎯 Objective
+
+Link Jira with the GitHub repository to track commits, pull requests, and deployments.
+
+## 📝 Steps Performed
+
+Navigated to Apps → Manage your apps in Jira.
+
+Located GitHub for Jira and clicked Configure.
+
+Linked the GitHub account.
+
+Selected the GitHub repository for the Wanderlust Web App.
+
+Verified the connection between Jira and GitHub.
+
+## 📌 Status
+
+✅ Jira connected to GitHub repository
+
+## 🔁 Project Management Practices
+
+Daily Standups
+
+Regular updates on task progress and blockers.
+
+Review Sessions
+
+Review all tasks moved to the REVIEW column.
+
+Retrospectives
+
+Conducted after project completion to analyze:
+
+What went well
+
+What can be improved
+
+## ✅ Conclusion
+
+By following this structured approach, the project ensures:
+
+Clean and deployable codebase
+
+Valid Kubernetes configurations
+
+Automated CI/CD using GitHub Actions
+
+Seamless GitHub–Jira integration
+
+Effective project tracking and review process
