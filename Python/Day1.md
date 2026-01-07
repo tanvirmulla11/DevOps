@@ -79,3 +79,32 @@ sum_result = a + b
 print(f"The sum of {a} and {b} is: {sum_result}")
 print(type(sum_result))
 ```
+## 🔹 Environments in DevOps
+| Environment | Purpose                                                |
+| ----------- | ------------------------------------------------------ |
+| **Dev**     | Developers test new features                           |
+| **Staging** | Pre-release testing                                    |
+| **Prod**    | Final live release (freshers usually don’t get access) |
+
+## 🔹 Conditional Statements (if–elif–else)
+```
+env = input("Enter the environment (dev/staging/prod): ")
+
+if env == "prod":
+    print("Don't deploy on production")
+elif env == "staging":
+    print("Take extra caution while deploying on staging")
+else:
+    print("Safe to deploy")
+```
+
+## 🔹 Operators in Python
+| Operator | Meaning               |
+| -------- | --------------------- |
+| `=`      | Assignment            |
+| `==`     | Equality              |
+| `!=`     | Not equal             |
+| `>=`     | Greater than or equal |
+| `<=`     | Less than or equal    |
+
+
