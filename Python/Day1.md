@@ -107,4 +107,70 @@ else:
 | `>=`     | Greater than or equal |
 | `<=`     | Less than or equal    |
 
+## 🔹 Loops in Python
+- for Loop Structure
+ ```
+for i in range(5):
+    print(i)
+```
+
+### Explanation
+```
+for → loop
+i → variable
+in → flow control
+range(5) → runs from 0 to 4
+```
+### Multiplication Table Example
+```
+num = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    product = num * i
+    print(f"{num} x {i} = {product}")
+```
+
+## 🔹 while Loop Example
+```
+choice = input("Enter your choice : ")
+
+while choice != "q":
+    num = int(input("Enter a number: "))
+
+    for i in range(1, 11):
+        print(f"{num} x {i} = {num * i}")
+
+    choice = input("Enter your choice : ")
+```
+## 🔹 Functions in Python
+### Why Functions?
+- Reusability
+- Clean code
+- Better automation
+### Example:
+```
+def sum_of_numbers():
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    total = num1 + num2
+    print(total)
+```
+- Calling Function Based on Environment
+```
+env = input("Enter the environment (dev/staging/prod): ")
+
+if env == "prod":
+    sum_of_numbers()
+```
+## 🔹 PyPI (Python Package Index)
+- Official platform for Python libraries
+- Website: pypi.org
+  -You can:
+    - Install others’ libraries
+    - Publish your own library
+### Example:
+```
+pip install requests
+```
+
 
