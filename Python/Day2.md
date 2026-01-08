@@ -17,3 +17,22 @@ python -m venv venv
 .\venv\Scripts\activate.bat
 deactivate
 ```
+- python -m venv venv → Creates a virtual environment named venv
+
+- activate.bat → Activates the environment (Windows)
+
+- deactivate → Exits the virtual environment
+
+## 🔹 Python Data Structures
+
+### Python provides four main built-in data structures:
+
+- List
+
+- Dictionary
+
+- Set
+
+- Tuple
+
+This session focuses on the List data structure.
