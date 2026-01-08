@@ -83,3 +83,22 @@ print("-" * 40)
 print("Documentation of extend() method:")
 print(clouds.extend.__doc__)
 ```
+## 📝 Key Notes
+
+- append() → Adds a single element to the list
+
+- extend() → Adds multiple elements from another list
+
+- dir() → Displays all methods and attributes of an object
+
+- __doc__ → Displays official documentation of a method
+
+## ✅ Summary
+
+- Learned how to create and manage virtual environments
+
+- Understood Python List data structure
+
+- Practiced list creation, indexing, and built-in methods
+
+- Used dir() and __doc__ for better code exploration
