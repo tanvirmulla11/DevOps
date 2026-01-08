@@ -36,3 +36,13 @@ deactivate
 - Tuple
 
 This session focuses on the List data structure.
+
+## 📘 List Data Structure
+
+### A List is:
+
+- Ordered
+
+- Mutable (can be modified)
+
+- Can store multiple data types
