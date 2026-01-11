@@ -17,7 +17,7 @@ Welcome to the DevOps Interview Preparation Repository. This guide helps you rev
 ---
 ## Linux 🐧
 <details>
-<summary>🔹 1. What is Linux?</summary>
+<summary>🔹 1.What is Linux?</summary>
 <br>
 Linux is an open-source, Unix-like operating system based on the Linux kernel. It is widely used in servers, development, and embedded systems.
 </details>
