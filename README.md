@@ -13,7 +13,6 @@ Welcome to the DevOps Interview Preparation Repository. This guide helps you rev
 - [Ansible](#ansible-🛠️)
 - [CI/CD](#cicd-⚙️)
 - [DevOps Methodology, Practices & Agile](#devops-methodology-practices--agile-📈)
-
 ---
 ## Linux 🐧
 <details>
