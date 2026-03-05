@@ -296,3 +296,289 @@ Setup GitHub Action
 
 Answer:
 Setup GitHub Copilot in a supported IDE such as Visual Studio Code or JetBrains and start coding
+
+Q26: What is a GitHub Codespace?
+
+A GitHub Codespace is an interactive holographic coding environment that required special hardware to use.  
+GitHub Codespace is an annual GitHub hosted event where developers can meet and discuss coding topics.  
+GitHub Codespace is an AI-powered coding tool that auto-generates near flawless code.  
+It's a preconfigured development environment specifically setup for a repository. It allows you immediately start writing code for a project without having to setup a local development environment.
+
+Answer:
+It's a preconfigured development environment specifically setup for a repository.
+
+
+Q27: What GitHub feature allows the creation of preconfigured development environments where all necessary tools and dependencies to contribute to a repository are installed?
+
+GitHub Docker  
+GitHub DevEnv  
+GitHub Codespaces  
+GitHub Copilot  
+
+Answer:
+GitHub Codespaces
+
+
+Q28: What GitHub features allow repository contributors to work on simple code changes directly through the web browser? (Choose two.)
+
+GitHub Dependabot  
+GitHub Codespaces  
+GitHub Online  
+github.dev editor  
+GitHub Remote  
+GitHub Projects  
+
+Answer:
+GitHub Codespaces  
+github.dev editor
+
+
+Q29: What are the different possible lifecycle phases for a GitHub Codespace?
+
+Create, Rebuild, Delete  
+Create, Stop, Delete  
+Create, Rebuild, Stop, Delete  
+Create, Delete  
+
+Answer:
+Create, Rebuild, Stop, Delete
+
+
+Q30: If you stop your GitHub Codespace environment can you come back to the changes later if you haven't committed them?
+
+No, these changes will be lost.  
+Yes, that's the default behavior when stopping and then starting a GitHub Codespace  
+
+Answer:
+Yes, that's the default behavior when stopping and then starting a GitHub Codespace
+
+
+Q31: Which of these statements regarding GitHub Codespaces lifecycle are true? (Choose three.)
+
+You can disconnect and reconnect to an active Codespace without affecting its running processes.  
+If you close the browser tab the Codespace will automatically stop.  
+A Codespace's lifecycle begins when you create a Codespace and ends when you delete it.  
+You can stop and restart a Codespace without affecting its running processes.  
+You can stop and restart a Codespace without losing changes.  
+Creating another Codespace deletes the previous one.
+
+Answer:
+You can disconnect and reconnect to an active Codespace.  
+A Codespace's lifecycle begins when you create a Codespace and ends when you delete it.  
+You can stop and restart a Codespace without losing the changes.
+
+
+Q32: Your project requires appropriate hardware to run. Can you customize the amount of CPU cores that will be allocated to your GitHub Codespace environment?
+
+No  
+Yes, you can choose an alternative machine type either when you create a codespace or after creating it.
+
+Answer:
+Yes, you can choose an alternative machine type either when you create a codespace or after creating it.
+
+
+Q33: How can you customize the environment that is run in GitHub Codespaces?
+
+.github/codespaces.yml  
+Custom Dockerfile  
+.devcontainer/devcontainer.json  
+Custom machine images  
+
+Answer:
+.devcontainer/devcontainer.json
+
+
+Q34: What is a GitHub Codespace deep link?
+
+Link to most recent codespace  
+Link to page to create codespace with configuration  
+Link to most recent repo codespace  
+Link syncing codespace and repository  
+
+Answer:
+Link that points to a specific GitHub page that allows creating a new Codespace with configuration.
+
+
+Q35: Who should have 2 Factor Authentication enabled on GitHub?
+
+No one  
+GitHub Organization owners  
+GitHub Enterprise Server users  
+All GitHub users  
+
+Answer:
+All GitHub users
+
+
+Q36: What are Enterprise Managed Users?
+
+Automation account  
+GitHub support account  
+Shared account  
+Enterprise feature that manages users via external identity provider
+
+Answer:
+Enterprise feature that allows managing users via external identity provider.
+
+
+Q37: What are the different permission levels for a repository owned by a personal account? (Choose two.)
+
+security manager  
+project owner  
+billing manager  
+repository owner  
+collaborator  
+
+Answer:
+repository owner  
+collaborator
+
+
+Q38: Which of these is NOT a role in a GitHub Organization?
+
+Organization moderator  
+Security manager  
+Organization architect  
+Organization member  
+Organization owner  
+Outside collaborator  
+Billing manager  
+GitHub App manager  
+
+Answer:
+Organization architect
+
+
+Q39: Can you disable the issues tab on a repository?
+
+No  
+Yes  
+
+Answer:
+Yes
+
+
+Q40: Where can you disable repository features such as issues, wikis or projects?
+
+These features cannot be disabled  
+.github/settings.yml  
+Repository settings  
+Account settings  
+
+Answer:
+Repository settings
+
+
+Q41: What are the different repository visibility options?
+
+Private, Public and Internal (Enterprise only)  
+Personal, Public and Internal  
+Private and Public  
+Personal and Public  
+
+Answer:
+Private, Public and Internal (Enterprise only)
+
+
+Q42: What is the purpose of a CODEOWNERS file?
+
+Contact details  
+Licensing information  
+Define individuals or teams responsible for code areas  
+Code quality info  
+
+Answer:
+Define individuals or teams responsible for specific areas of the codebase.
+
+
+Q43: How can you enforce status checks passing before merging a pull request to the main branch?
+
+GitHub Actions  
+Private repo  
+Branch protection rule  
+Run tests locally  
+
+Answer:
+Branch protection rule
+
+
+Q44: Which of these actions ensure at least two approvals before merging? (Choose three.)
+
+Require pull request before merging  
+Enforce status checks  
+Setup CODEOWNERS  
+Require at least 2 approvals  
+Deployment protection rule  
+Create deployment protection rule  
+Create branch protection rule  
+
+Answer:
+Require pull request before merging  
+Require at least 2 approvals  
+Create branch protection rule
+
+
+Q45: What can you find in the security tab of a repository?
+
+Security overview including vulnerabilities, scanning results, and secret alerts  
+Best practices list  
+Security issues list  
+GitHub security contact  
+
+Answer:
+Security overview including vulnerabilities and scanning alerts
+
+
+Q46: What is CodeQL?
+
+Programming language  
+Code analysis tool  
+Text editor  
+Version control system  
+
+Answer:
+Code analysis tool
+
+
+Q47: Which tool helps keep repository dependencies up to date?
+
+GitHub Actions  
+Dependabot  
+CodeQL  
+GitHub Copilot  
+
+Answer:
+Dependabot
+
+
+Q48: What are Repository Insights?
+
+Repository analytics (code frequency, contributors etc.)  
+Security overview  
+Best practice list  
+Secret scanning alerts  
+
+Answer:
+Repository analytics such as code frequency and contributor activity.
+
+
+Q49: Who are repository collaborators?
+
+People who committed code  
+People who opened issues  
+People who funded repo  
+People granted write access  
+
+Answer:
+People granted write access to a repository.
+
+
+Q50: How can you work together with a friend on a personal repository?
+
+Share credentials  
+Add to CODEOWNERS  
+Not possible  
+Invite as collaborator  
+
+Answer:
+Go to repository settings and invite him as a collaborator.
