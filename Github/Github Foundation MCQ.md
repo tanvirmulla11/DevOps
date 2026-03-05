@@ -582,3 +582,412 @@ Invite as collaborator
 
 Answer:
 Go to repository settings and invite him as a collaborator.
+
+Q51: What are GitHub teams?
+It's a group of GitHub users from the same organization.
+It's a way of managing access to personal repositories.
+It's a version of Microsoft Teams for GitHub.
+
+Answer: It's a group of GitHub users from the same organization.
+
+Q52: What is the role of an organization moderator?
+Moderators are organization members who have complete access.
+Moderators can view security alerts and manage settings.
+Moderators manage billing.
+Moderators can block/unblock contributors, set interaction limits, and hide comments.
+
+Answer: Moderators can block/unblock contributors, set interaction limits, and hide comments.
+
+Q53: What is the role of an organization security manager?
+Complete organization access.
+Block/unblock contributors.
+Manage billing.
+View security alerts and manage security settings.
+
+Answer: View security alerts and manage security settings.
+
+Q54: Which definition best describes open source software?
+Free for personal use only.
+Software with source code anyone can inspect, modify and enhance.
+Software anyone can rely on.
+Free if license signed.
+
+Answer: Software with source code anyone can inspect, modify and enhance.
+
+Q55: What is GitHub Sponsors?
+Job program
+Financially support open source developers
+Volunteer teaching program
+Company funding GitHub
+
+Answer: Financially support open source developers
+
+Q56: Why did you receive notification about octocat/my-repo?
+You starred repo
+You follow octocat
+You contributed
+You visited profile
+
+Answer: You follow octocat
+
+Q57: What happens when you follow a user?
+They see your activity
+You access private repos
+Private chat
+You see their public activity
+
+Answer: You see their public activity
+
+Q58: What is GitHub Marketplace?
+Sponsor marketplace
+Marketplace for developer tools integrated with GitHub
+Hiring platform
+Repo selling marketplace
+
+Answer: Marketplace for developer tools integrated with GitHub
+
+Q59: What is InnerSource?
+Internal knowledge base
+Applying open source practices inside an organization
+Tool for open source usage
+Open source in personal projects
+
+Answer: Applying open source practices inside an organization
+
+Q60: Practice encouraging collaboration across teams?
+InnerSource
+OpenSource
+CI
+Git Flow
+
+Answer: InnerSource
+
+Q61: What is a fork?
+Personal copy of repo under your account
+Branch split
+Outdated repo
+Branch behind default
+
+Answer: Personal copy of repo under your account
+
+Q62: What makes a repository discoverable? (3)
+Descriptive name
+Topics
+Apps/actions
+README/CONTRIBUTING
+CI/CD
+Tests
+
+Answer: Descriptive name, Topics, Documentation
+
+Q63: How define bug report protocol?
+Example issue
+Issue templates
+Projects
+Labels
+
+Answer: Issue templates
+
+Q64: What is a pull request template?
+Auto PR when branch created
+File defining default PR structure
+Example PR
+Reference PR
+
+Answer: File defining default PR structure
+
+Q65: Version control system definition?
+Track installed programs
+Track history of file changes
+Git CLI system
+Local copy creator
+
+Answer: Track history of file changes
+
+Q66: Meaning of distributed in DVCS?
+Full repo history locally
+Distributed team tasks
+P2P sharing
+Multi-server storage
+
+Answer: Full repo history locally
+
+Q67: What describes Git?
+Distributed version control system
+GitHub product
+Centralized VCS
+File sharing system
+
+Answer: Distributed version control system
+
+Q68: What describes GitHub?
+File sharing platform
+Distributed VCS
+Platform built around Git enabling collaboration
+CI/CD platform
+
+Answer: Platform built around Git enabling collaboration
+
+Q69: Relation between Git and GitHub?
+Git file sharing
+GitHub file sharing
+Git DVCS, GitHub platform built on Git
+GitHub DVCS
+
+Answer: Git DVCS, GitHub platform built on Git
+
+Q70: What is a repository?
+Docker image storage
+Place storing code and revision history
+Browser editor
+Chat room
+
+Answer: Place storing code and revision history
+
+Q71: What is a commit?
+Code changes in PR
+Snapshot of repository
+Commit message
+New file
+
+Answer: Snapshot of repository
+
+Q72: Which Git feature enables parallel development?
+commit
+branch
+remote
+working tree
+
+Answer: branch
+
+Q73: What is GitHub Flow?
+Branch workflow with PR review before merge
+Single branch workflow
+CI pipelines triggered
+Auto releases
+
+Answer: Branch workflow with pull requests
+
+Q74: What is GitHub Pro plan?
+Paid organization plan
+Self-host enterprise plan
+Paid personal plan
+Certification
+
+Answer: Paid personal plan
+
+Q75: Free version of GitHub for organizations?
+No
+Yes
+
+Answer: Yes
+
+Q76: GitHub pricing plans for organizations (3)
+Business
+Pro
+Enterprise
+Advanced
+Team
+Free
+Personal
+
+Answer: Enterprise, Team, Free
+
+Q77: Which plan offers self-hosted GitHub?
+Enterprise
+Pro
+All
+Free
+Team
+None
+
+Answer: Enterprise
+
+Q78: Unlimited public repos under which plan?
+Team
+Free
+Enterprise
+Pro
+All
+Team + Enterprise
+
+Answer: All
+
+Q79: Deployment options for GitHub Enterprise (2)
+Enterprise Cloud
+Enterprise Server
+Enterprise Team
+Enterprise Advanced
+Enterprise Pro
+Enterprise Free
+
+Answer: Enterprise Cloud, Enterprise Server
+
+Q80: Enterprise deployment true statements (2)
+Enterprise Cloud advanced features on GitHub.com
+Enterprise Server advanced features
+Enterprise Cloud self hosted
+Enterprise Server self hosted
+Enterprise Cloud company cloud
+
+Answer: Cloud = GitHub.com features, Server = self hosted
+
+Q81: What are pinned repositories?
+Pinned to profile top
+GitHub promoted repos
+Suspended repos
+Favorites
+
+Answer: Pinned to profile top
+
+Q82: Which file customizes GitHub profile?
+profile README.md
+profile CONTRIBUTING.md
+Account settings only
+
+Answer: profile README.md
+
+Q83: Language used in GitHub comments?
+HTML
+AsciiDoc
+reStructuredText
+Markdown
+
+Answer: Markdown
+
+Q84: GitHub slash commands?
+Insert complex markdown quickly
+CLI name
+Automate actions
+Fix formatting
+
+Answer: Insert complex markdown quickly
+
+Q85: Markdown help in issues?
+Markdown unsupported
+Cheat sheet
+HTML auto convert
+Formatting toolbar
+
+Answer: Formatting toolbar
+
+Q86: What is GitHub Desktop?
+Pricing plan
+Browser editor
+GUI Git client
+Self-host GitHub
+
+Answer: GUI Git client
+
+Q87: What is GitHub Mobile?
+Mobile testing
+GitHub mobile app
+Telemetry service
+Data transfer service
+
+Answer: GitHub mobile app
+
+Q88: Link PR to issue (2)
+Keyword + title
+Keyword + issue number
+Manual linking
+Commit message
+Code changes
+
+Answer: Keyword + issue number, Manual linking
+
+Q89: Issue forms improvement?
+Simple title/desc
+Structured prompts
+No issue forms
+Auto close issues
+
+Answer: Structured prompts
+
+Q90: Feature for community conversations?
+Pull requests
+Discussions
+Wikis
+Gists
+
+Answer: Discussions
+
+Q91: Effect of “Closes #11”?
+Auto merge
+Merge on 11th
+Issue closed when PR merged
+Delete PR
+Delete branch
+
+Answer: Issue closed when PR merged
+
+Q92: Proposal to merge branches called?
+Commit
+Pull Request
+Gist
+Issue
+Merge branch
+
+Answer: Pull Request
+
+Q93: PR base/compare branches?
+main base, feature-a compare
+feature-a base, main compare
+
+Answer: main base, feature-a compare
+
+Q94: Draft pull requests?
+Reviewed but not merged
+Templates
+Reviewed not approved
+Not ready for review
+
+Answer: Not ready for review
+
+Q95: PR review statuses (3)
+Applaud
+Request Changes
+Deny
+Approve
+Close
+Comment
+
+Answer: Request Changes, Approve, Comment
+
+Q96: Difference issues vs discussions?
+Issues conversations not tracked
+Discussions conversations not tracked
+
+Answer: Discussions conversations not tracked
+
+Q97: Share small code snippets?
+Projects
+Gists
+Issues
+Wikis
+
+Answer: Gists
+
+Q98: GitHub Wikis?
+Repo documentation feature
+Place for README
+Official docs
+Snippet hosting
+
+Answer: Repo documentation feature
+
+Q99: Project options when not needed?
+Close + delete
+Archive + close
+Deactivate + archive
+Delete + archive
+
+Answer: Archive + close
+
+Q100: Change gist public to secret?
+No
+Yes
+
+Answer: Yes
+
+
