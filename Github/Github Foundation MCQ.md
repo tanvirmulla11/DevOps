@@ -991,3 +991,560 @@ Yes
 Answer: Yes
 
 
+Q101: What happens when you choose to close a Project?
+
+The Project is moved to a separate folder  
+The project is permanently removed from the platform  
+The content is retained and you have the ability to reopen it later.  
+Associated values and insights data are deleted  
+
+Answer:
+The content is retained and you have the ability to reopen it later.
+
+
+Q102: If there are multiple Readme.md files in a GitHub repository, what is the priority order to show them?
+
+Root directory, .docs directory, .github directory  
+.github directory, Root directory, .docs directory  
+.docs directory, .github directory, Root directory  
+.docs directory, Root directory, .github directory  
+
+Answer:
+Root directory, .docs directory, .github directory
+
+
+Q103: Which of the following Git commands allow you to create a new branch and start working on it in one line? (Select two.)
+
+git checkout -m <new_branch_name>  
+git switch -c <new_branch_name>  
+git merge -m <new_branch_name>  
+git switch -m <new_branch_name>  
+git branch -c <new_branch_name>  
+git checkout -b <new_branch_name>  
+
+Answer:
+git switch -c <new_branch_name>  
+git checkout -b <new_branch_name>
+
+
+Q104: If a GitHub Discussion is converted into an Issue and the issue is closed or referred to using its corresponding # number, will the discussion be modified?
+
+No  
+Yes  
+
+Answer:
+Yes
+
+
+Q105: Which information can be found in the Pulse section in the Insights tab of a repository? (Choose four)
+
+Pull requests open/merged ratio  
+Amount of forks of the repo  
+Amount of code line additions and deletions  
+Summary of repository activity  
+List of issue discussions  
+List of unresolved conversations  
+
+Answer:
+Pull requests open/merged ratio  
+Amount of forks of the repo  
+Amount of code line additions and deletions  
+Summary of repository activity
+
+
+Q106: What are the different levels of GitHub organizational hierarchy? (Choose three.)
+
+Enterprise level  
+Organization level  
+Team level  
+Personal level  
+Pro level  
+
+Answer:
+Enterprise level  
+Organization level  
+Team level
+
+
+Q107: Who can setup billing or assign billing managers for an organization? (Select three.)
+
+Billing managers at the organization level  
+Team maintainer at the team level  
+Owner at the enterprise level  
+Admin in at the team level  
+Owner at the organization level  
+Owner of the repository  
+
+Answer:
+Billing managers at the organization level  
+Owner at the enterprise level  
+Owner at the organization level
+
+
+Q108: What is one of the main benefits for using a Personal Access Token (PAT) instead of a standard username and password for GitHub authentication?
+
+PATs can be managed by the organization and enterprise.  
+PAT can be used for authentication to GitHub when using the GitHub API or the command line. Users generate a token via GitHub settings and tie the token permissions to a repository or organization.  
+PAT is an extra layer of security used when logging into websites or apps.  
+PAT lets you authenticate GitHub Enterprise Server against your existing accounts.  
+
+Answer:
+PAT can be used for authentication to GitHub when using the GitHub API or the command line.
+
+
+Q109: What are the different forms of two-factor or multi-factor authentication supported by GitHub? (Choose five.)
+
+Phone call  
+GitHub mobile  
+Security key  
+Text message  
+Passkey  
+Email  
+Time-based one-time password (TOTP)  
+
+Answer:
+GitHub mobile  
+Security key  
+Text message  
+Passkey  
+Time-based one-time password (TOTP)
+
+
+Q110: What are the different GitHub pricing plans for personal accounts? (Select two)
+
+Business  
+Pro  
+Personal  
+Enterprise  
+Free  
+Team  
+Advanced  
+
+Answer:
+Free  
+Pro
+
+
+Q111: What is/are the common GitHub pricing plan(s) for both personal and organization accounts?
+
+Business  
+Team  
+Advanced  
+Personal  
+Enterprise  
+Free  
+Pro  
+
+Answer:
+Free
+
+
+Q112: What syntax is used in GitHub Markdown to create a task list?
+
+# TODO: and # DONE:  
+- [ ] and - [x]  
+<task> and <done>  
+// TODO: and // DONE:  
+
+Answer:
+- [ ] and - [x]
+
+
+Q113: Which Markdown element is not correctly paired with its syntax?
+
+Hyperlink - [title](https://)  
+Inline code - '''code'''  
+Bold text - **bold**  
+Heading - # Heading  
+
+Answer:
+Inline code - '''code'''
+
+
+Q114: What feature is unique to GitHub Desktop compared to github.com?
+
+Visualize branch histories in a graphical interface  
+View repository insights  
+Clone repositories to local machine  
+Create new repositories  
+
+Answer:
+Visualize branch histories in a graphical interface
+
+
+Q115: Which of the following actions cannot be performed directly from GitHub Desktop?
+
+Stashing changes  
+Committing changes  
+Managing GitHub Actions  
+Switching between branches  
+
+Answer:
+Managing GitHub Actions
+
+
+Q116: What are some actions you can do in regards to Project Templates in your organization? (Choose three.)
+
+Configure recommended templates to your organization's members  
+With admin or write permissions, copy an existing project as a template  
+Publish your templates in GitHub Marketplace  
+With write permission, set an existing project as a template  
+Create a new template to be used as a base for new projects  
+
+Answer:
+Configure recommended templates to your organization's members  
+Copy an existing project as a template  
+Create a new template to be used as a base for new projects
+
+
+Q117: Which of the following is true about GitHub wikis?
+
+Wikis in private repositories are accessible to anyone with a GitHub account.  
+Markdown cannot be used to add rendered math expressions, diagrams, maps, and 3D models.  
+Wikis in public repositories are accessible to anyone, while private ones are accessible to collaborators.  
+You can only edit wikis on GitHub.  
+
+Answer:
+Wikis in public repositories are accessible to anyone, while private ones are accessible to collaborators.
+
+
+Q118: Which of the following roles are available for a repository at the organization level on GitHub? (Choose five.)
+
+Maintain  
+Write  
+Read  
+Delete  
+Triage  
+Admin  
+
+Answer:
+Maintain  
+Write  
+Read  
+Triage  
+Admin
+
+
+Q119: What is the minimum permission a user must have to directly push commits to a repository owned by an organization?
+
+Change repository settings  
+Create new repositories  
+Delete the repository  
+Push commits  
+Manage issues and pull requests  
+
+Answer:
+Push commits
+
+
+Q120: Which of these is a capability of a Security Manager with respect to GitHub Actions in an organization?
+
+Delete workflow runs  
+Remove branch protection  
+Turn off code reviews  
+Configure which actions are allowed or blocked  
+
+Answer:
+Configure which actions are allowed or blocked across the organization.
+
+
+Q121: Which feature provides pre-built charts or visualizations for repository activity and health?
+
+Insights tab  
+GitHub Projects  
+GitHub Discussions  
+GitHub Actions  
+
+Answer:
+Insights tab
+
+
+Q122: Which of these features does GitHub Copilot for Business offer that GitHub Copilot for Individuals does not?
+
+24/7 phone support  
+Exemption from fees  
+Organization-wide policy management  
+Local hosting of AI model  
+
+Answer:
+Organization-wide policy management
+
+
+Q123: What is the main difference between an organization member and an outside collaborator?
+
+Outside collaborators become maintainers  
+Members cannot access private repos  
+Outside collaborators have repository-level access but are not part of the organization  
+Outside collaborators manage billing  
+
+Answer:
+Outside collaborators have repository-level access but are not part of the organization.
+
+
+Q124: Which actions can you perform on a GitHub Discussion? (Choose three.)
+
+Convert discussion to secret gist  
+Transfer to another repository discussion  
+Pin a discussion  
+Merge into pull request  
+Convert it to an issue  
+
+Answer:
+Transfer to another repository discussion  
+Pin a discussion  
+Convert it to an issue
+
+
+Q125: Which search query finds all open issues labeled test that mention 'fix' in their body text?
+
+is:issue is:open label:test "fix"  
+is:pr is:open label:test "fix"  
+is:issue in:comments label:test "fix"  
+type:issue label:test is:open body:"fix"  
+
+Answer:
+is:issue is:open label:test "fix"
+
+
+Q126: Which of the following are valid states for a pull request on GitHub? (Choose four.)
+
+Abandoned  
+Open  
+Draft  
+Closed  
+Pending  
+Merged  
+
+Answer:
+Open  
+Draft  
+Closed  
+Merged
+
+
+Q127: Which statement best describes a major difference between new GitHub Projects and GitHub Projects Classic?
+
+Classic has AI closing PRs  
+New only manages issues  
+Classic supports scanning  
+New provides spreadsheet interface and custom fields  
+
+Answer:
+New provides spreadsheet-like interface with custom fields.
+
+
+Q128: Which of these can you customize in a Codespaces devcontainer.json file? (Choose three.)
+
+Repository branch protection rules  
+Codespace display name  
+Organization policies  
+GitHub Actions billing usage  
+Operating system or base image  
+Shell configuration  
+
+Answer:
+Codespace display name  
+Operating system or base image  
+Shell configuration
+
+
+Q129: Which roles can view and manage security alerts for private repositories?
+
+Outside collaborators  
+Billing managers  
+Organization owners and Security managers  
+Repository maintainers  
+
+Answer:
+Organization owners and Security managers
+
+
+Q130: Difference between personal and organization accounts?
+
+Organization accounts can have multiple owners and members  
+Organization requires Enterprise  
+Personal unlimited repos  
+SSH only  
+
+Answer:
+Organization accounts can have multiple owners and members.
+
+
+Q131: Difference between cloning and forking?
+
+Fork creates GitHub copy; clone creates local copy  
+Clone pushes to original repo  
+Clone transfers ownership  
+Only private repos forked  
+
+Answer:
+Fork creates GitHub copy; clone creates local copy.
+
+
+Q132: How many repositories or gists can you pin on profile?
+
+10  
+6  
+Only public  
+Unlimited  
+
+Answer:
+6
+
+
+Q133: Advanced search for repos >100 stars with docker in name?
+
+topic:docker stars:>100  
+is:public name:docker stars:100  
+docker stars<100  
+in:name docker stars:>100 is:public  
+
+Answer:
+in:name docker stars:>100 is:public
+
+
+Q134: What is GitHub secret scanning?
+
+Delete credentials  
+Encrypt secrets  
+Search repositories for exposed secrets  
+Password manager  
+
+Answer:
+Search repositories for exposed secrets.
+
+
+Q135: What is GitHub Pages?
+
+Static website hosting from repository  
+Java web apps  
+Organization only  
+Private website hosting  
+
+Answer:
+Static website hosting from repository.
+
+
+Q136: Common use case for version control?
+
+Requirement gathering  
+Delete versions  
+Experiment using branches  
+Meeting scheduling  
+
+Answer:
+Experiment using branches.
+
+
+Q137: Another name for version control system?
+
+Software control management system  
+Version management software  
+Software configuration management system  
+
+Answer:
+Software configuration management system
+
+
+Q138: Git command for help?
+
+git help  
+git status  
+git init  
+
+Answer:
+git help
+
+
+Q139: When are GitHub Issues better than Discussions?
+
+Tracking tasks or bugs  
+Ideas feedback  
+Announcements  
+
+Answer:
+Tracking tasks or bugs.
+
+
+Q140: Preparing feature branch for deployment?
+
+Review via pull request  
+Delete branch  
+Commit to main  
+
+Answer:
+Review via pull request before merging.
+
+
+Q141: Purpose of commit message?
+
+Describe changes  
+Auto merge  
+Backup  
+
+Answer:
+Describe changes made in commit.
+
+
+Q142: Why use Issues for bug reports?
+
+Auto resolved  
+Structured tracking  
+Discussions better  
+
+Answer:
+Structured tracking.
+
+
+Q143: When should issue be used instead of discussion?
+
+Track tasks or bugs  
+Open feedback  
+Announcements  
+
+Answer:
+Track tasks or bugs.
+
+
+Q144: Benefit of branches?
+
+Prevent unauthorized access  
+Work without affecting main branch  
+Auto deployment  
+
+Answer:
+Work without affecting main branch.
+
+
+Q145: Requirement to add file to repo?
+
+Write access  
+Owner  
+Read access  
+
+Answer:
+Write access.
+
+
+Q146: Difference between Git and GitHub?
+
+Git DVCS; GitHub platform built on Git  
+Git individual tool  
+Git local only  
+
+Answer:
+Git DVCS; GitHub platform built on Git.
+
+
+Q147: Copilot Business capabilities not in individual plans? (Choose two)
+
+Integration with enterprise compliance and audit requirements  
+Centralized billing and seat management  
+Free student access  
+AI code completions  
+Organization-wide policy controls  
+
+Answer:
+Integration with enterprise compliance and audit requirements  
+Centralized billing and seat management
+
