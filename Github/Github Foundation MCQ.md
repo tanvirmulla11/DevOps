@@ -992,4 +992,650 @@ Create branch protection rule
 
 </details>
 
+### Q61: What is a fork in GitHub?
+
+- A personal copy of another user's repository on your account
+- A place where a branch splits
+- Repository out of sync
+- Branch not updated
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** A personal copy of another user's repository on your account
+
+</details>
+
+---
+
+### Q62: Which actions can make a repository more discoverable? (Choose three.)
+
+- Descriptive repository name
+- Setting repository topics
+- Using GitHub Apps
+- Writing README and documentation
+- Defining CI/CD pipelines
+- Adding tests
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Descriptive repository name, Repository topics, Documentation (README, CONTRIBUTING)
+
+</details>
+
+---
+
+### Q63: How can you define protocols for bug reports or feature requests?
+
+- Example issue
+- Issue templates
+- GitHub Projects
+- Labels
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Create issue templates
+
+</details>
+
+---
+
+### Q64: What is a pull request template?
+
+- Auto generated PR
+- File defining default PR structure
+- Example PR
+- Reference PR
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** A file defining the default pull request structure
+
+</details>
+
+---
+
+### Q65: What best describes a version control system?
+
+- Tracks software installs
+- Tracks history of file changes
+- Uses git CLI
+- Creates local project copies
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Tracks history of changes made to files
+
+</details>
+
+---
+
+### Q66: What does distributed mean in distributed version control?
+
+- Each developer has full repository copy
+- Tasks distributed
+- Peer-to-peer file sharing
+- Multiple servers
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Developers have full repository copy locally
+
+</details>
+
+---
+
+### Q67: What best describes Git?
+
+- Distributed version control system
+- GitHub product
+- Centralized version control
+- File sharing system
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Distributed version control system
+
+</details>
+
+---
+
+### Q68: What best describes GitHub?
+
+- File sharing platform
+- Distributed VCS
+- Platform using Git with collaboration features
+- CI/CD platform
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Platform that uses Git and adds collaboration features
+
+</details>
+
+---
+
+### Q69: Relationship between Git and GitHub?
+
+- Git file sharing / GitHub platform
+- GitHub file sharing
+- Git distributed VCS / GitHub platform using Git
+- GitHub distributed VCS
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Git is a distributed version control system and GitHub is a platform built around Git
+
+</details>
+
+---
+
+### Q70: What is a repository in GitHub?
+
+- Docker image storage
+- Place storing code and history
+- Browser code editor
+- Chat room
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** A place where code and its revision history are stored
+
+</details>
+
+---
+
+### Q71: What is a git commit?
+
+- PR code changes
+- Snapshot of repository at a point in time
+- Description text
+- Updated file
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Snapshot of repository at a specific point in time
+
+</details>
+
+---
+
+### Q72: Which Git feature allows parallel development?
+
+- commit
+- branch
+- remote
+- working tree
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** branch
+
+</details>
+
+---
+
+### Q73: What is GitHub Flow?
+
+- Branch workflow with PR review before merging
+- One branch workflow
+- CI pipeline trigger
+- Auto deployment system
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Branch-based workflow using pull requests for review
+
+</details>
+
+---
+
+### Q74: What is GitHub Pro plan?
+
+- Organization paid plan
+- Enterprise hosting
+- Paid plan for personal accounts
+- Certification
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Paid plan for personal accounts
+
+</details>
+
+---
+
+### Q75: Is there a free GitHub version for organizations?
+
+- No
+- Yes
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Yes
+
+</details>
+
+---
+
+### Q76: GitHub pricing plans for organizations (Select three.)
+
+- Business
+- Pro
+- Enterprise
+- Advanced
+- Team
+- Free
+- Personal
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Free, Team, Enterprise
+
+</details>
+
+---
+
+### Q77: Which GitHub plan offers self-hosted deployment?
+
+- Enterprise
+- Pro
+- All
+- Free
+- Team
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Enterprise
+
+</details>
+
+---
+
+### Q78: Which plan allows unlimited public repositories?
+
+- Team
+- Free
+- Enterprise
+- Pro
+- All of them
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** All of them
+
+</details>
+
+---
+
+### Q79: GitHub Enterprise deployment options (Select two.)
+
+- Enterprise Cloud
+- Enterprise Server
+- Enterprise Team
+- Enterprise Advanced
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** GitHub Enterprise Cloud, GitHub Enterprise Server
+
+</details>
+
+---
+
+### Q80: Which statements about Enterprise deployment are true? (Select two.)
+
+- Enterprise Cloud runs on GitHub.com
+- Enterprise Server runs on company infrastructure
+- Cloud is self hosted
+- Server runs on GitHub servers
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:**  
+Enterprise Cloud runs on GitHub.com  
+Enterprise Server runs on company infrastructure
+
+</details>
+
+---
+
+### Q81: What are pinned repositories?
+
+- Repositories pinned to top of profile
+- GitHub promoted repos
+- Suspended repos
+- Favorite repos
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Repositories pinned to top of profile
+
+</details>
+
+---
+
+### Q82: Which file customizes GitHub profile?
+
+- profile README.md
+- profile CONTRIBUTING.md
+- settings only
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** profile README.md
+
+</details>
+
+---
+
+### Q83: Which language is used for comments on GitHub?
+
+- HTML
+- AsciiDoc
+- reStructuredText
+- Markdown
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Markdown
+
+</details>
+
+---
+
+### Q84: What are GitHub slash commands?
+
+- Quick Markdown commands
+- GitHub CLI name
+- Action automation
+- Code formatting commands
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Quick commands for inserting Markdown or performing actions
+
+</details>
+
+---
+
+### Q85: How does GitHub help users who don't know Markdown?
+
+- Markdown cheat sheet
+- HTML conversion
+- Toolbar that generates Markdown
+- Markdown unsupported
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Text formatting toolbar
+
+</details>
+
+---
+
+### Q86: What is GitHub Desktop?
+
+- Paid plan
+- Online editor
+- GUI app for Git and GitHub
+- Self hosted GitHub
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** GUI application for working with Git and GitHub
+
+</details>
+
+---
+
+### Q87: What is GitHub Mobile?
+
+- Mobile testing service
+- Mobile app for GitHub
+- Telemetry system
+- Data transfer system
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Mobile app for GitHub
+
+</details>
+
+---
+
+### Q88: How can you link a pull request to an issue? (Choose two.)
+
+- Keyword referencing issue title
+- Keyword referencing issue number
+- Manual linking
+- Issue number in commit
+- Issue number in code
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:**  
+Keyword referencing issue number  
+Manual linking
+
+</details>
+
+---
+
+### Q89: What improvement do issue forms provide?
+
+- Simpler issues
+- Structured form inputs
+- Not available
+- Auto closing issues
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Structured form inputs for issue creation
+
+</details>
+
+---
+
+### Q90: Which repository feature acts as a community forum?
+
+- Pull requests
+- Discussions
+- Wikis
+- Gists
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Discussions
+
+</details>
+
+---
+
+### Q91: What happens when you write "Closes #11" in PR description?
+
+- PR auto merges
+- PR scheduled
+- Issue closes when PR merged
+- Branch deleted
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Issue closes automatically when PR is merged
+
+</details>
+
+---
+
+### Q92: Proposal to merge changes from one branch into another?
+
+- Commit
+- Pull Request
+- Gist
+- Issue
+- Merge branch
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Pull Request
+
+</details>
+
+---
+
+### Q93: When merging feature-a into main which is base branch?
+
+- main base / feature-a compare
+- feature-a base / main compare
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** main base / feature-a compare
+
+</details>
+
+---
+
+### Q94: What are draft pull requests?
+
+- Reviewed PRs
+- Templates
+- Not approved PRs
+- PRs not ready for review
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Pull requests not ready for review
+
+</details>
+
+---
+
+### Q95: Possible pull request review statuses (Choose three.)
+
+- Applaud
+- Request Changes
+- Deny
+- Approve
+- Close
+- Comment
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Request Changes, Approve, Comment
+
+</details>
+
+---
+
+### Q96: Difference between Issues and Discussions?
+
+- Issues track work
+- Discussions open conversations
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Discussions are for conversations not requiring tracking
+
+</details>
+
+---
+
+### Q97: Best way to share small code snippets?
+
+- Projects
+- Gists
+- Issues
+- Wikis
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Gists
+
+</details>
+
+---
+
+### Q98: What are GitHub Wikis?
+
+- Documentation hosting feature
+- README storage
+- GitHub documentation
+- Code snippet hosting
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Documentation hosting feature
+
+</details>
+
+---
+
+### Q99: Options when you no longer need a Project?
+
+- Close and delete
+- Archive and close
+- Deactivate and archive
+- Delete and archive
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Close and delete
+
+</details>
+
+---
+
+### Q100: Can you change a gist from public to secret?
+
+- No
+- Yes
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+**Answer:** Yes
+
+</details>
+
+---
+
 ---
