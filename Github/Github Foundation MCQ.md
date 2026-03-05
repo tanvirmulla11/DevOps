@@ -7,88 +7,74 @@ Test your knowledge of GitHub features, plans, and roles. Click on each question
 # GitHub MCQ Practice (147 Questions)
 
 ---
+# GitHub Foundations MCQ Practice (147 Questions)
 
-### Q1: What are the possible GitHub account types? (Select three.)
+---
+
+## Q1: What are the possible GitHub account types? (Select three.)
+
 - Shared accounts
 - Enterprise accounts
 - Company accounts
 - Organization accounts
 - Personal accounts
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Enterprise accounts, Organization accounts, Personal accounts
-
-</details>
+**Answer:**  
+Enterprise accounts  
+Organization accounts  
+Personal accounts
 
 ---
 
-### Q2: Which GitHub feature serves as an adaptable spreadsheet, task board, and roadmap integrated with issues and pull requests?
+## Q2: Which of these GitHub features serves the purpose of an adaptable spreadsheet, task board and a roadmap that integrates with issues and pull requests on GitHub to plan and track your work effectively?
 
 - GitHub Copilot
 - GitHub Organization
 - GitHub Project
 - GitHub Repository
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Project
-
-</details>
+**Answer:**  
+GitHub Project
 
 ---
 
-### Q3: How does the synchronization between GitHub projects, issues and pull requests work?
+## Q3: How does the synchronization between GitHub projects, issues and pull requests work?
 
-- Updates to the issues and pull requests will be automatically reflected in GitHub Projects and work both ways
-- Information synchronization only works from project to issues
-- Updates must be triggered manually
-- Synchronization only works from issues to projects
+- Updates to issues and pull requests automatically reflect in Projects in both directions
+- Sync works only from projects to issues
+- Sync must be triggered manually
+- Sync works only from issues to projects
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Updates to the issues and pull requests will be automatically reflected in GitHub Projects and work both ways
-
-</details>
+**Answer:**  
+Updates to issues and pull requests automatically reflect in Projects in both directions
 
 ---
 
-### Q4: Which statement about custom fields in GitHub Projects is true?
+## Q4: Which is true regarding custom fields in GitHub Projects?
 
-- Custom fields are only for aesthetic modifications
-- Custom fields are limited to predefined options
-- Custom fields enable additional metadata like target dates and iteration fields
-- Custom fields only allow text data
+- Only aesthetic changes
+- Only predefined options
+- Allow metadata such as target dates and iteration fields
+- Only textual metadata
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Custom fields enable the addition of metadata beyond built-in options
-
-</details>
+**Answer:**  
+Allow metadata such as target dates and iteration fields
 
 ---
 
-### Q5: What are the available options for adding issues and pull requests to a GitHub Project board?
+## Q5: Options for adding issues and pull requests to GitHub Projects?
 
 - Only individually
 - Individually, automatically, or in bulk
 - Only manually
 - Only automatically
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Individually, automatically, or in bulk
-
-</details>
+**Answer:**  
+Individually, automatically, or in bulk
 
 ---
 
-### Q6: Which layouts are available in GitHub Projects? (Choose three.)
+## Q6: Which layouts exist in GitHub Projects? (Choose three)
 
 - Scrum layout
 - Board layout
@@ -97,2315 +83,542 @@ Test your knowledge of GitHub features, plans, and roles. Click on each question
 - Table layout
 - Project layout
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Board layout, Roadmap layout, Table layout
-
-</details>
+**Answer:**  
+Board layout  
+Roadmap layout  
+Table layout
 
 ---
 
-### Q7: Which GitHub Project layout would best serve as a Kanban board?
+## Q7: Which layout best serves as a Kanban board?
 
 - Board layout
 - Table layout
 - Agile layout
 - Roadmap layout
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Board layout
-
-</details>
+**Answer:**  
+Board layout
 
 ---
 
-### Q8: Which workflows are built-in automations in GitHub Projects? (Choose two.)
+## Q8: Built-in automation workflows in GitHub Projects? (Choose two)
 
-- When pull requests in your project are merged, their status is set to Done
-- When issues or pull requests are closed, their status is set to Done
-- When a GitHub Action is triggered create a new item
-- When issues are opened their status is set to Done
-- When a new contributor is added issues are auto assigned
-
-<details>
-<summary>Click to reveal the answer</summary>
+- When PRs are merged → status Done
+- When issues or PRs are closed → status Done
+- GitHub Actions create project item
+- New issues → Done
+- Assign issues to new contributor
 
 **Answer:**  
-When pull requests are merged → status set to Done  
-When issues or pull requests are closed → status set to Done
-
-</details>
+When PRs are merged → Done  
+When issues/PRs closed → Done
 
 ---
 
-### Q9: Which options allow automation in GitHub Projects? (Choose three.)
-
-- GitHub Charts
-- GitHub Dependabot
-- Project items
-- GitHub Actions
-- GitHub Copilot
-- Project workflows
-- GitHub GraphQL API
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Actions, Project workflows, GitHub GraphQL API
-
-</details>
-
----
-
-### Q10: What is the difference between GitHub Projects and GitHub Projects Classic?
-
-- Projects Classic is the new version
-- Projects Classic offers templates
-- Projects Classic is easier for beginners
-- GitHub Projects is the new experience with improved features
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Projects is the new experience with many improvements over Projects Classic
-
-</details>
-
----
-
-### Q11: What are labels used for?
-
-- Assign contributor roles
-- Assign to releases
-- Categorize files
-- Categorize issues and pull requests
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Categorizing issues and pull requests
-
-</details>
-
----
-
-### Q12: Why would a repository owner use milestones? (Choose two.)
-
-- To indicate stable repository state
-- To associate issues with project phases
-- To track dependencies
-- To automate repository
-- To list contributors
-- To track remaining work in a phase
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:**  
-Associate issues with project phases  
-Track remaining work for a project phase
-
-</details>
-
----
-
-### Q13: How can you assign a person to an issue or pull request?
-
-- Not possible
-- Mention them in description
-- Use the Assignees field
-- Add label with username
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** By using the Assignees field in the sidebar
-
-</details>
-
----
-
-### Q14: If you often write the same comments on issues or pull requests what feature saves time?
-
-- Comment templates
-- Repository templates
-- Labels
-- Saved replies
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Saved replies
-
-</details>
-
----
-
-### Q15: Which statements about saved replies are true? (Choose two.)
-
-- Create/edit/delete in account settings
-- Reusable comments
-- Only repository owners can use them
-- Save other people's replies
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:**  
-You can create/edit/delete them in settings  
-Saved replies are reusable comments
-
-</details>
-
----
-
-### Q16: Which actions can be done with Repository Templates? (Choose two.)
-
-- Create template from repo
-- Delete repos not using template
-- Create repo from template
-- Delete repos created from template
-- Create organization from template
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:**  
-Create a repository template from an existing repository  
-Create a new repository from a template
-
-</details>
-
----
-
-### Q17: Which feature generates graphs and charts to visualize project progress?
-
-- GitHub Actions
-- Copilot Charts
-- Milestones
-- Project Insights
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Project Insights
-
-</details>
-
----
-
-### Q18: What is GitHub's CI/CD platform?
+## Q9: What is GitHub’s CI/CD platform?
 
 - GitHub Pipelines
 - GitHub Projects
 - GitHub Workflows
 - GitHub Actions
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Actions
-
-</details>
+**Answer:**  
+GitHub Actions
 
 ---
 
-### Q19: Which is a common use case for GitHub Actions?
+## Q10: Common use case for GitHub Actions?
 
-- Training ML models
-- Running automated tests before merging PR
-- Data analytics
-- Adding sponsorship button
+- ML training
+- Automated tests before merging PR
+- Big data processing
+- Sponsorship automation
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Running automated tests before merging a pull request
-
-</details>
+**Answer:**  
+Automated tests before merging PR
 
 ---
 
-### Q20: Which events can trigger GitHub Actions? (Choose two.)
-
-- New repository member
-- Pull request opened
-- Commit pushed
-- Repository settings change
-- Dependency vulnerability detected
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Pull request opened, Commit pushed
-
-</details>
-
----
-
-### Q21: Where can you find publicly available GitHub Actions?
-
-- GitHub Public Action Storage
-- GitHub Actions Project Boards
-- GitHub Marketplace
-- GitHub private repositories
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Marketplace
-
-</details>
-
----
-
-### Q22: Which tool acts as an AI pair programmer providing autocomplete suggestions?
+## Q11: AI pair programmer tool?
 
 - GitHub Partner
 - GitHub AI Aid
 - GitHub Copilot
 - GitHub Assistant
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Copilot
-
-</details>
+**Answer:**  
+GitHub Copilot
 
 ---
 
-### Q23: Is GitHub Copilot free?
+## Q12: Is GitHub Copilot free?
 
-- Yes only for public repos
+- Only public repos
 - No
-- Yes for students/teachers/open source maintainers
-- Yes
+- Yes for students, teachers, maintainers
+- Yes for everyone
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Yes for students, teachers, and maintainers of popular open-source projects
-
-</details>
+**Answer:**  
+Yes for students, teachers, maintainers of open source
 
 ---
 
-### Q24: Difference between Copilot Individual and Copilot Business?
+## Q13: What is GitHub Codespaces?
 
-- Individual uses public model / Business uses private
-- Individual free / Business paid
-- Individual only public repos
-- Individual for personal accounts / Business for organizations
+- Holographic coding environment
+- Developer conference
+- AI coding assistant
+- Preconfigured development environment for repository
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Copilot Individual is for personal accounts while Copilot Business is for organizations
-
-</details>
+**Answer:**  
+Preconfigured development environment for repository
 
 ---
 
-### Q25: How do you start using GitHub Copilot after subscribing?
-
-- It automatically suggests on issues
-- Setup Copilot in supported IDE like VS Code
-- Enable in repo settings
-- Setup GitHub Action
-
-<details>
-<summary>Click to reveal the answer</summary>
----
-### Q26: What is a GitHub Codespace?
-
-- An interactive holographic coding environment
-- A GitHub event for developers
-- An AI coding tool
-- A preconfigured development environment for a repository
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** A preconfigured development environment specifically setup for a repository
-
-</details>
-
----
-
-### Q27: Which GitHub feature allows the creation of preconfigured development environments?
+## Q14: Which feature creates preconfigured dev environments?
 
 - GitHub Docker
 - GitHub DevEnv
 - GitHub Codespaces
 - GitHub Copilot
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Codespaces
-
-</details>
+**Answer:**  
+GitHub Codespaces
 
 ---
 
-### Q28: Which GitHub features allow contributors to work on simple code changes directly in the browser? (Choose two.)
+## Q15: GitHub features allowing code edits in browser? (Choose two)
 
-- GitHub Dependabot
-- GitHub Codespaces
+- Dependabot
+- Codespaces
 - GitHub Online
 - github.dev editor
 - GitHub Remote
 - GitHub Projects
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Codespaces, github.dev editor
-
-</details>
-
----
-
-### Q29: What are the lifecycle phases for a GitHub Codespace?
-
-- Create, Rebuild, Delete
-- Create, Stop, Delete
-- Create, Rebuild, Stop, Delete
-- Create, Delete
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Create, Rebuild, Stop, Delete
-
-</details>
-
----
-
-### Q30: If you stop a GitHub Codespace can you return to uncommitted changes?
-
-- No, they will be lost
-- Yes, changes persist when restarting the Codespace
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Yes, changes persist when restarting the Codespace
-
-</details>
-
----
-
-### Q31: Which statements about Codespaces lifecycle are true? (Choose three.)
-
-- You can disconnect and reconnect without affecting running processes
-- Closing the browser stops the Codespace
-- Lifecycle begins when created and ends when deleted
-- Restarting deletes project changes
-- Restarting keeps project changes
-
-<details>
-<summary>Click to reveal the answer</summary>
-
 **Answer:**  
-You can disconnect and reconnect  
-Lifecycle begins at creation and ends at deletion  
-Restarting keeps project changes
-
-</details>
+GitHub Codespaces  
+github.dev editor
 
 ---
 
-### Q32: Can you customize CPU cores for a GitHub Codespace?
-
-- No
-- Yes, you can choose a different machine type
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Yes, you can choose a different machine type
-
-</details>
-
----
-
-### Q33: How can you customize the environment in GitHub Codespaces?
-
-- .github/codespaces.yml
-- Dockerfile
-- .devcontainer/devcontainer.json
-- Custom machine images
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** .devcontainer/devcontainer.json configuration file
-
-</details>
-
----
-
-### Q34: What is a GitHub Codespace deep link?
-
-- Link to last used Codespace
-- Link to create a Codespace with configuration
-- Link to most recent Codespace
-- Link syncing Codespace with repo
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Link to create a Codespace with specific configuration
-
-</details>
-
----
-
-### Q35: Who should have 2FA enabled on GitHub?
+## Q16: Who should enable 2FA?
 
 - No one
 - Organization owners
 - Enterprise users
 - All GitHub users
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** All GitHub users
-
-</details>
+**Answer:**  
+All GitHub users
 
 ---
 
-### Q36: What are Enterprise Managed Users?
+## Q17: What are Enterprise Managed Users?
 
-- Automation accounts
-- GitHub support users
+- Automation-only accounts
+- GitHub support accounts
 - Shared enterprise accounts
-- Accounts managed through external identity providers
+- Enterprise feature managing users via identity provider
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Accounts managed via an external identity provider like Azure AD or Okta
-
-</details>
+**Answer:**  
+Enterprise feature managing users via external identity provider
 
 ---
 
-### Q37: What permission levels exist for personal repositories? (Choose two.)
-
-- Security manager
-- Project owner
-- Billing manager
-- Repository owner
-- Collaborator
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Repository owner, Collaborator
-
-</details>
-
----
-
-### Q38: Which is NOT a GitHub Organization role?
-
-- Organization moderator
-- Security manager
-- Organization architect
-- Organization member
-- Organization owner
-- Outside collaborator
-- Billing manager
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Organization architect
-
-</details>
-
----
-
-### Q39: Can you disable the Issues tab on a repository?
+## Q18: Can you disable the Issues tab?
 
 - No
 - Yes
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Yes
-
-</details>
+**Answer:**  
+Yes
 
 ---
 
-### Q40: Where can repository features like issues or wikis be disabled?
+## Q19: Where can repository features be disabled?
 
-- Not possible
+- Cannot disable
 - .github/settings.yml
 - Repository settings
 - Account settings
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Repository settings
-
-</details>
+**Answer:**  
+Repository settings
 
 ---
 
-### Q41: What repository visibility options exist?
+## Q20: Repository visibility options?
 
-- Private, Public and Internal
-- Personal, Public and Internal
+- Private, Public, Internal (Enterprise)
+- Personal, Public, Internal
 - Private and Public
 - Personal and Public
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Private, Public and Internal (Enterprise)
-
-</details>
+**Answer:**  
+Private, Public, Internal (Enterprise)
 
 ---
 
-### Q42: What is the purpose of a CODEOWNERS file?
+## Q21: Purpose of CODEOWNERS file?
 
 - Contact details
-- License information
-- Define owners responsible for code areas
-- Code quality metrics
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Define individuals or teams responsible for specific parts of the codebase
-
-</details>
-
----
-
-### Q43: How can you enforce status checks before merging?
-
-- GitHub Actions
-- Make repository private
-- Branch protection rule
-- Run tests locally
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Create a branch protection rule
-
-</details>
-
----
-
-### Q44: Which actions ensure two approvals before merging? (Choose three.)
-
-- Require pull request before merging
-- Require status checks
-- Setup CODEOWNERS
-- Require at least 2 approvals
-- Deployment protection rule
-- Create branch protection rule
-
-<details>
-<summary>Click to reveal the answer</summary>
+- Licensing info
+- Define responsible individuals or teams
+- Code quality report
 
 **Answer:**  
-Require pull request before merging  
-Require at least 2 approvals  
+Define responsible individuals or teams
+
+---
+
+## Q22: Enforce status checks before merging?
+
+- Use GitHub Actions
+- Make repo private
+- Create branch protection rule
+- Run tests locally
+
+**Answer:**  
 Create branch protection rule
 
-</details>
-
 ---
 
-### Q45: What can be found in the Security tab?
+## Q23: What is shown in Security tab?
 
 - Security overview and vulnerability alerts
-- Best practice list
-- Security issues
-- Contact info for GitHub security
+- Security best practices
+- Security issues list
+- GitHub security contacts
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Security overview including vulnerabilities, code scanning and secret scanning alerts
-
-</details>
+**Answer:**  
+Security overview and vulnerability alerts
 
 ---
 
-### Q46: What is CodeQL?
+## Q24: What is CodeQL?
 
 - Programming language
 - Code analysis tool
 - Text editor
-- Version control system
+- Version control
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Code analysis tool
-
-</details>
+**Answer:**  
+Code analysis tool
 
 ---
 
-### Q47: Which tool keeps dependencies up to date?
+## Q25: Tool that keeps dependencies updated?
 
 - GitHub Actions
 - Dependabot
 - CodeQL
 - Copilot
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Dependabot
-
-</details>
+**Answer:**  
+Dependabot
 
 ---
 
-### Q48: What are Repository Insights?
+## Q26: What are Repository Insights?
 
-- Data about repository activity
-- Security overview
-- Best practices
-- Secret scanning alerts
+- Repository analytics and metrics
+- Security dashboard
+- Best practices list
+- Secret scanning overview
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Data about repository activity like commits and contributors
-
-</details>
+**Answer:**  
+Repository analytics and metrics
 
 ---
 
-### Q49: Who are repository collaborators?
+## Q27: Repository collaborators are:
 
 - Contributors
 - Issue creators
 - Sponsors
-- Users granted write access
+- Users with write access
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Users granted write access
-
-</details>
+**Answer:**  
+Users with write access
 
 ---
 
-### Q50: How can you collaborate on a personal repository?
+## Q28: How to collaborate on personal repo?
 
 - Share credentials
 - Add to CODEOWNERS
-- Not possible
-- Invite as collaborator
+- Impossible
+- Invite collaborator in repo settings
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Invite as collaborator in repository settings
-
-</details>
+**Answer:**  
+Invite collaborator in repo settings
 
 ---
 
-### Q51: What are GitHub Teams?
+## Q29: What are GitHub Teams?
 
-- Group of users in an organization
-- Access management for personal repos
-- Microsoft Teams integration
+- Groups of users within an organization
+- Access manager for personal repos
+- GitHub version of Teams
+- Messaging service
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** A group of GitHub users within the same organization
-
-</details>
+**Answer:**  
+Groups of users within an organization
 
 ---
 
-### Q52: Role of an organization moderator?
+## Q30: What is open source software?
 
-- Full organization access
-- Manage billing
-- Manage code security
-- Manage community interactions
+- Free personal use
+- Source code accessible and modifiable
+- Reliable software
+- Free if licensed
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Manage community interactions like blocking users and hiding comments
-
-</details>
+**Answer:**  
+Source code accessible and modifiable
 
 ---
 
-### Q53: Role of a security manager?
+## Q31: GitHub Sponsors program?
 
-- Full organization access
-- Manage interactions
-- Manage billing
-- Manage security alerts
+- Job finding platform
+- Financial support for open source devs
+- Learning program
+- Corporate funding
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Manage security alerts and security settings
-
-</details>
+**Answer:**  
+Financial support for open source developers
 
 ---
 
-### Q54: What best describes open source software?
+## Q32: Why did you receive repo notification?
 
-- Free for personal use
-- Software anyone can inspect, modify, and enhance
-- Software anyone can rely on
-- Free if license signed
+- Starred repo
+- Following user
+- Contributed
+- Visited profile
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Software with source code anyone can inspect, modify, and enhance
-
-</details>
+**Answer:**  
+Following user
 
 ---
 
-### Q55: What is GitHub Sponsors?
+## Q33: Effect of following user?
 
-- Job program
-- Financial support program for open source developers
-- Student mentoring
-- Company funding program
+- They get notifications
+- Access to private repos
+- Private chat
+- You see their public activity
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Financial support for open source developers
-
-</details>
+**Answer:**  
+You see their public activity
 
 ---
 
-### Q56: Why did you receive a notification about a new repository from a user?
+## Q34: What is GitHub Marketplace?
 
-- You starred the repo
-- You follow the user
-- You contributed
-- You visited their profile
+- Sponsor marketplace
+- Tools and integrations marketplace
+- Developer hiring site
+- Repo sales marketplace
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** You follow the user
-
-</details>
+**Answer:**  
+Tools and integrations marketplace
 
 ---
 
-### Q57: What happens when you follow a user?
+## Q35: What is InnerSource?
 
-- They see your activity
-- You access their private repos
-- Private messaging enabled
-- You receive notifications about their activity
+- Internal knowledge base
+- Applying open source principles internally
+- Tool for dependency analysis
+- Open source for personal projects
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** You receive notifications about their public activity
-
-</details>
+**Answer:**  
+Applying open source principles internally
 
 ---
 
-### Q58: What is GitHub Marketplace?
-
-- Sponsor platform
-- Tools marketplace for development
-- Hiring platform
-- Repo selling platform
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Marketplace for tools that integrate with GitHub
-
-</details>
-
----
-
-### Q59: What is InnerSource?
-
-- Internal project knowledge base
-- Applying open source principles within an organization
-- Tool for tracking open source
-- Applying open source in personal projects
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Applying open source principles within an organization
-
-</details>
-
----
-
-### Q60: Which practice encourages collaboration and code sharing across teams?
+## Q36: Which practice encourages collaboration across teams?
 
 - InnerSource
 - OpenSource
 - Continuous Integration
 - Git Flow
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** InnerSource
-
-</details>
+**Answer:**  
+InnerSource
 
 ---
 
-**Answer:** Setup GitHub Copilot in a supported IDE such as Visual Studio Code
+## Q37: What is a fork?
 
-</details>
+- Personal copy of another repo
+- Branch split
+- Outdated repo
+- Outdated branch
 
-### Q61: What is a fork in GitHub?
-
-- A personal copy of another user's repository on your account
-- A place where a branch splits
-- Repository out of sync
-- Branch not updated
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** A personal copy of another user's repository on your account
-
-</details>
+**Answer:**  
+Personal copy of another repository
 
 ---
 
-### Q62: Which actions can make a repository more discoverable? (Choose three.)
+## Q38: Which improves repository discoverability? (Choose three)
 
 - Descriptive repository name
-- Setting repository topics
-- Using GitHub Apps
-- Writing README and documentation
-- Defining CI/CD pipelines
-- Adding tests
+- Repository topics
+- GitHub Apps usage
+- Documentation like README
+- CI/CD pipelines
+- Tests
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Descriptive repository name, Repository topics, Documentation (README, CONTRIBUTING)
-
-</details>
+**Answer:**  
+Descriptive name  
+Topics  
+Documentation (README)
 
 ---
 
-### Q63: How can you define protocols for bug reports or feature requests?
+## Q39: How to guide users submitting bug reports?
 
 - Example issue
 - Issue templates
 - GitHub Projects
 - Labels
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Create issue templates
-
-</details>
+**Answer:**  
+Issue templates
 
 ---
 
-### Q64: What is a pull request template?
+## Q40: Pull request template?
 
-- Auto generated PR
+- Auto-generated PR
 - File defining default PR structure
 - Example PR
 - Reference PR
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** A file defining the default pull request structure
-
-</details>
+**Answer:**  
+File defining default PR structure
 
 ---
 
-### Q65: What best describes a version control system?
+## Q41: Version control system is:
 
-- Tracks software installs
-- Tracks history of file changes
-- Uses git CLI
-- Creates local project copies
+- Installation tracker
+- File change history tracker
+- Git tool
+- Local copy manager
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Tracks history of changes made to files
-
-</details>
+**Answer:**  
+File change history tracker
 
 ---
 
-### Q66: What does distributed mean in distributed version control?
+## Q42: Meaning of distributed in DVCS?
 
-- Each developer has full repository copy
-- Tasks distributed
-- Peer-to-peer file sharing
-- Multiple servers
+- Full repo copy locally
+- Task distribution
+- P2P file sharing
+- Multi-server storage
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Developers have full repository copy locally
-
-</details>
+**Answer:**  
+Full repository copy locally
 
 ---
 
-### Q67: What best describes Git?
+## Q43: Git is:
 
 - Distributed version control system
 - GitHub product
-- Centralized version control
+- Centralized VCS
 - File sharing system
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Distributed version control system
-
-</details>
+**Answer:**  
+Distributed version control system
 
 ---
 
-### Q68: What best describes GitHub?
+## Q44: GitHub is:
 
 - File sharing platform
-- Distributed VCS
-- Platform using Git with collaboration features
+- DVCS
+- Platform built on Git
 - CI/CD platform
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Platform that uses Git and adds collaboration features
-
-</details>
+**Answer:**  
+Platform built on Git
 
 ---
 
-### Q69: Relationship between Git and GitHub?
+## Q45: Relationship between Git and GitHub?
 
-- Git file sharing / GitHub platform
+- Git file sharing
 - GitHub file sharing
-- Git distributed VCS / GitHub platform using Git
-- GitHub distributed VCS
+- Git DVCS, GitHub platform built on Git
+- GitHub DVCS
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Git is a distributed version control system and GitHub is a platform built around Git
-
-</details>
+**Answer:**  
+Git DVCS, GitHub platform built on Git
 
 ---
 
-### Q70: What is a repository in GitHub?
+## Q46: Repository in GitHub?
 
-- Docker image storage
-- Place storing code and history
-- Browser code editor
+- Package storage
+- Code + file history storage
+- Web editor
 - Chat room
 
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** A place where code and its revision history are stored
-
-</details>
+**Answer:**  
+Code and file history storage
 
 ---
 
-### Q71: What is a git commit?
+## Q47: Git commit is:
 
-- PR code changes
-- Snapshot of repository at a point in time
-- Description text
-- Updated file
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Snapshot of repository at a specific point in time
-
-</details>
-
----
-
-### Q72: Which Git feature allows parallel development?
-
-- commit
-- branch
-- remote
-- working tree
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** branch
-
-</details>
-
----
-
-### Q73: What is GitHub Flow?
-
-- Branch workflow with PR review before merging
-- One branch workflow
-- CI pipeline trigger
-- Auto deployment system
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Branch-based workflow using pull requests for review
-
-</details>
-
----
-
-### Q74: What is GitHub Pro plan?
-
-- Organization paid plan
-- Enterprise hosting
-- Paid plan for personal accounts
-- Certification
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Paid plan for personal accounts
-
-</details>
-
----
-
-### Q75: Is there a free GitHub version for organizations?
-
-- No
-- Yes
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Yes
-
-</details>
-
----
-
-### Q76: GitHub pricing plans for organizations (Select three.)
-
-- Business
-- Pro
-- Enterprise
-- Advanced
-- Team
-- Free
-- Personal
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Free, Team, Enterprise
-
-</details>
-
----
-
-### Q77: Which GitHub plan offers self-hosted deployment?
-
-- Enterprise
-- Pro
-- All
-- Free
-- Team
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Enterprise
-
-</details>
-
----
-
-### Q78: Which plan allows unlimited public repositories?
-
-- Team
-- Free
-- Enterprise
-- Pro
-- All of them
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** All of them
-
-</details>
-
----
-
-### Q79: GitHub Enterprise deployment options (Select two.)
-
-- Enterprise Cloud
-- Enterprise Server
-- Enterprise Team
-- Enterprise Advanced
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Enterprise Cloud, GitHub Enterprise Server
-
-</details>
-
----
-
-### Q80: Which statements about Enterprise deployment are true? (Select two.)
-
-- Enterprise Cloud runs on GitHub.com
-- Enterprise Server runs on company infrastructure
-- Cloud is self hosted
-- Server runs on GitHub servers
-
-<details>
-<summary>Click to reveal the answer</summary>
+- PR change
+- Snapshot of repository
+- Commit message
+- File update
 
 **Answer:**  
-Enterprise Cloud runs on GitHub.com  
-Enterprise Server runs on company infrastructure
-
-</details>
+Snapshot of repository
 
 ---
 
-### Q81: What are pinned repositories?
-
-- Repositories pinned to top of profile
-- GitHub promoted repos
-- Suspended repos
-- Favorite repos
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Repositories pinned to top of profile
-
-</details>
-
----
-
-### Q82: Which file customizes GitHub profile?
-
-- profile README.md
-- profile CONTRIBUTING.md
-- settings only
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** profile README.md
-
-</details>
-
----
-
-### Q83: Which language is used for comments on GitHub?
-
-- HTML
-- AsciiDoc
-- reStructuredText
-- Markdown
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Markdown
-
-</details>
-
----
-
-### Q84: What are GitHub slash commands?
-
-- Quick Markdown commands
-- GitHub CLI name
-- Action automation
-- Code formatting commands
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Quick commands for inserting Markdown or performing actions
-
-</details>
-
----
-
-### Q85: How does GitHub help users who don't know Markdown?
-
-- Markdown cheat sheet
-- HTML conversion
-- Toolbar that generates Markdown
-- Markdown unsupported
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Text formatting toolbar
-
-</details>
-
----
-
-### Q86: What is GitHub Desktop?
-
-- Paid plan
-- Online editor
-- GUI app for Git and GitHub
-- Self hosted GitHub
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GUI application for working with Git and GitHub
-
-</details>
-
----
-
-### Q87: What is GitHub Mobile?
-
-- Mobile testing service
-- Mobile app for GitHub
-- Telemetry system
-- Data transfer system
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Mobile app for GitHub
-
-</details>
-
----
-
-### Q88: How can you link a pull request to an issue? (Choose two.)
-
-- Keyword referencing issue title
-- Keyword referencing issue number
-- Manual linking
-- Issue number in commit
-- Issue number in code
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:**  
-Keyword referencing issue number  
-Manual linking
-
-</details>
-
----
-
-### Q89: What improvement do issue forms provide?
-
-- Simpler issues
-- Structured form inputs
-- Not available
-- Auto closing issues
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Structured form inputs for issue creation
-
-</details>
-
----
-
-### Q90: Which repository feature acts as a community forum?
-
-- Pull requests
-- Discussions
-- Wikis
-- Gists
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Discussions
-
-</details>
-
----
-
-### Q91: What happens when you write "Closes #11" in PR description?
-
-- PR auto merges
-- PR scheduled
-- Issue closes when PR merged
-- Branch deleted
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Issue closes automatically when PR is merged
-
-</details>
-
----
-
-### Q92: Proposal to merge changes from one branch into another?
+## Q48: Feature allowing concurrent development?
 
 - Commit
-- Pull Request
-- Gist
-- Issue
-- Merge branch
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Pull Request
-
-</details>
-
----
-
-### Q93: When merging feature-a into main which is base branch?
-
-- main base / feature-a compare
-- feature-a base / main compare
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** main base / feature-a compare
-
-</details>
-
----
-
-### Q94: What are draft pull requests?
-
-- Reviewed PRs
-- Templates
-- Not approved PRs
-- PRs not ready for review
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Pull requests not ready for review
-
-</details>
-
----
-
-### Q95: Possible pull request review statuses (Choose three.)
-
-- Applaud
-- Request Changes
-- Deny
-- Approve
-- Close
-- Comment
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Request Changes, Approve, Comment
-
-</details>
-
----
-
-### Q96: Difference between Issues and Discussions?
-
-- Issues track work
-- Discussions open conversations
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Discussions are for conversations not requiring tracking
-
-</details>
-
----
-
-### Q97: Best way to share small code snippets?
-
-- Projects
-- Gists
-- Issues
-- Wikis
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Gists
-
-</details>
-
----
-
-### Q98: What are GitHub Wikis?
-
-- Documentation hosting feature
-- README storage
-- GitHub documentation
-- Code snippet hosting
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Documentation hosting feature
-
-</details>
-
----
-
-### Q99: Options when you no longer need a Project?
-
-- Close and delete
-- Archive and close
-- Deactivate and archive
-- Delete and archive
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Close and delete
-
-</details>
-
----
-
-### Q100: Can you change a gist from public to secret?
-
-- No
-- Yes
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Yes
-
-</details>
-
----
-### Q101: What happens when you close a GitHub Project?
-
-- Project moved to folder
-- Project permanently deleted
-- Content retained and can be reopened
-- Insights deleted
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** The content is retained and the project can be reopened later
-
-</details>
-
----
-
-### Q102: If multiple README.md files exist which one is shown first?
-
-- Root → .docs → .github
-- .github → Root → .docs
-- .docs → .github → Root
-- .docs → Root → .github
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Root directory → .docs → .github
-
-</details>
-
----
-
-### Q103: Which Git commands create and switch to a new branch? (Choose two.)
-
-- git checkout -m
-- git switch -c
-- git merge -m
-- git switch -m
-- git branch -c
-- git checkout -b
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** git switch -c, git checkout -b
-
-</details>
-
----
-
-### Q104: If a discussion is converted into an issue will it be modified when issue closes?
-
-- No
-- Yes
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** No
-
-</details>
-
----
-
-### Q105: What information is shown in the Pulse section of repository Insights? (Choose four)
-
-- Pull request open/merged ratio
-- Fork count
-- Code additions and deletions
-- Repository activity summary
-- Issue discussions
-- Unresolved conversations
-
-<details>
-<summary>Click to reveal the answer</summary>
+- Branch
+- Remote
+- Working tree
 
 **Answer:**  
-Pull request open/merged ratio  
-Code additions and deletions  
-Repository activity summary  
-Fork count
-
-</details>
+Branch
 
 ---
 
-### Q106: GitHub organizational hierarchy levels (Choose three.)
-
-- Enterprise level
-- Organization level
-- Team level
-- Personal level
-- Pro level
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Enterprise level, Organization level, Team level
-
-</details>
-
----
-
-### Q107: Who can setup billing or assign billing managers? (Select three.)
-
-- Billing managers
-- Team maintainer
-- Enterprise owner
-- Team admin
-- Organization owner
-- Repository owner
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Billing managers, Enterprise owners, Organization owners
-
-</details>
-
----
-
-### Q108: Benefit of Personal Access Token (PAT)?
-
-- Managed by enterprise
-- Used for API or CLI authentication
-- Extra authentication factor
-- Enterprise account management
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Used for authentication when accessing GitHub API or CLI
-
-</details>
-
----
-
-### Q109: Which multi-factor authentication methods does GitHub support? (Choose five)
-
-- Phone call
-- GitHub Mobile
-- Security key
-- Text message
-- Passkey
-- Email
-- Time-based OTP
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** GitHub Mobile, Security key, Text message, Passkey, Time-based OTP
-
-</details>
-
----
-
-### Q110: GitHub pricing plans for personal accounts? (Choose two)
-
-- Business
-- Pro
-- Personal
-- Enterprise
-- Free
-- Team
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Free, Pro
-
-</details>
-
----
-
-### Q111: Common GitHub pricing plan for both personal and organizations?
-
-- Business
-- Team
-- Advanced
-- Personal
-- Enterprise
-- Free
-- Pro
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Free
-
-</details>
-
----
-
-### Q112: Markdown syntax for task list?
-
-- #TODO
-- - [ ]
-- <task>
-- //TODO
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** - [ ] and - [x]
-
-</details>
-
----
-
-### Q113: Which Markdown syntax pairing is incorrect?
-
-- Hyperlink [title](url)
-- Inline code '''code'''
-- Bold **bold**
-- Heading # Heading
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Inline code '''code'''
-
-</details>
-
----
-
-### Q114: Unique feature of GitHub Desktop?
-
-- Branch visualization GUI
-- Repository insights
-- Clone repos
-- Create repos
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Visualize branch histories in GUI
-
-</details>
-
----
-
-### Q115: Which action cannot be done in GitHub Desktop?
-
-- Stash changes
-- Commit changes
-- Manage GitHub Actions
-- Switch branches
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Managing GitHub Actions
-
-</details>
-
----
-
-### Q116: Actions related to Project Templates? (Choose three)
-
-- Configure recommended templates
-- Copy project as template
-- Publish templates to marketplace
-- Set project as template
-- Create new template
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Configure recommended templates, Copy project as template, Create new template
-
-</details>
-
----
-
-### Q117: Which statement about GitHub wikis is correct?
-
-- Private repo wikis accessible to everyone
-- Markdown cannot be used
-- Public repo wikis accessible to everyone
-- Local editing not supported
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Public repo wikis accessible to everyone, private ones limited to collaborators
-
-</details>
-
----
-
-### Q118: Roles available for organization repository? (Choose five)
-
-- Maintain
-- Write
-- Read
-- Delete
-- Triage
-- Admin
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Maintain, Write, Read, Triage, Admin
-
-</details>
-
----
-
-### Q119: Minimum permission to push commits?
-
-- Change settings
-- Create repos
-- Delete repo
-- Push commits
-- Manage issues
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Push commits (Write access)
-
-</details>
-
----
-
-### Q120: Security manager capability for GitHub Actions?
-
-- Delete workflow runs
-- Remove branch protection
-- Turn off reviews
-- Configure allowed/blocked actions
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Configure which actions are allowed or blocked
-
-</details>
-
----
-
-### Q121: Feature providing charts for repository activity?
-
-- Insights tab
-- GitHub Projects
-- Discussions
-- GitHub Actions
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Insights tab
-
-</details>
-
----
-
-### Q122: Feature unique to Copilot Business?
-
-- Phone support
-- Free usage
-- Organization-wide policy management
-- Local AI hosting
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Organization-wide policy management
-
-</details>
-
----
-
-### Q123: Difference between organization member and outside collaborator?
-
-- Collaborators become maintainers
-- Members cannot access private repos
-- Collaborators only have repo-level access
-- Collaborators manage billing
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Outside collaborators have repository-level access but are not organization members
-
-</details>
-
----
-
-### Q124: Actions possible on GitHub Discussions? (Choose three)
-
-- Convert to gist
-- Transfer to other repo
-- Pin discussion
-- Merge to PR
-- Convert to issue
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Transfer discussion, Pin discussion, Convert to issue
-
-</details>
-
----
-
-### Q125: Query to find open issues labeled test mentioning "fix"?
-
-- is:issue is:open label:test "fix"
-- is:pr label:test
-- issue:fix label:test
-- label:test body:fix
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** is:issue is:open label:test "fix"
-
-</details>
-
----
-
-### Q126: Valid pull request states (Choose four)
-
-- Abandoned
-- Open
-- Draft
-- Closed
-- Pending
-- Merged
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Open, Draft, Closed, Merged
-
-</details>
-
----
-
-### Q127: Difference between new GitHub Projects and Projects Classic?
-
-- AI auto closes PR
-- Only supports issues
-- Classic supports scanning
-- New Projects provide spreadsheet-like interface and custom fields
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** New Projects provide flexible spreadsheet interface and custom fields
-
-</details>
-
----
-
-### Q128: What can be customized in devcontainer.json? (Choose three)
-
-- Branch protection
-- Codespace display name
-- Organization policies
-- Actions billing
-- Base image/OS
-- Shell configuration
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Codespace display name, Base image/OS, Shell configuration
-
-</details>
-
----
-
-### Q129: Who can manage security alerts for private repos?
-
-- Outside collaborators
-- Billing managers
-- Organization owners and security managers
-- Maintainers
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Organization owners and security managers
-
-</details>
-
----
-
-### Q130: Difference between personal and organization accounts?
-
-- Organization accounts can have multiple owners
-- Enterprise required
-- Personal unlimited repos
-- SSH-only login
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Organization accounts can have multiple owners and members
-
-</details>
-
----
-
-### Q131: Difference between cloning and forking?
-
-- Fork creates copy under your GitHub account
-- Clone transfers ownership
-- Only private repos forked
-- Only public repos cloned
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Fork creates copy on GitHub account, clone creates local copy
-
-</details>
-
----
-
-### Q132: How many pinned items can appear on GitHub profile?
-
-- 10 repositories
-- 6 repositories or gists
-- Only public repos
-- Unlimited
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Up to six repositories or gists
-
-</details>
-
----
-
-### Q133: Query for public repos with >100 stars containing docker?
-
-- topic:docker stars>100
-- is:public docker stars
-- docker stars<100
-- in:name docker stars:>100 is:public
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** in:name docker stars:>100 is:public
-
-</details>
-
----
-
-### Q134: What is GitHub secret scanning?
-
-- Deletes secrets
-- Encrypts secrets
-- Searches for exposed credentials
-- Password manager
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Searches repositories for exposed credentials
-
-</details>
-
----
-
-### Q135: What is GitHub Pages?
-
-- Static site hosting
-- Java web app host
-- Organization only feature
-- Private website hosting
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Static site hosting from a repository
-
-</details>
-
----
-
-### Q136: Common use case for version control system?
-
-- Feature requirement management
-- Delete old versions
-- Experiment using branches
-- Schedule meetings
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Making experimental changes in isolated branches
-
-</details>
-
----
-
-### Q137: Another name for version control system?
-
-- SCM system
-- VMS
-- Software configuration management system
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Software configuration management system
-
-</details>
-
----
-
-### Q138: Command that gives help in Git?
-
-- git help
-- git status
-- git init
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** git help
-
-</details>
-
----
-
-### Q139: When are GitHub Issues better than Discussions?
-
-- Tracking tasks or bugs
-- Seeking ideas
-- Announcements
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Tracking tasks or bugs requiring resolution
-
-</details>
-
----
-
-### Q140: Preparing feature branch for deployment?
-
-- Review via pull request
-- Delete feature branch
-- Commit to main
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Review and approve via pull request before merging
-
-</details>
-
----
-
-### Q141: Purpose of commit message?
-
-- Describe changes in commit
-- Auto merge
-- Backup repository
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Summary describing changes
-
-</details>
-
----
-
-### Q142: Why use GitHub Issues for bug reports?
-
-- Auto resolved
-- Structured bug tracking
-- Discussions better
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Structured format for tracking and resolving bugs
-
-</details>
-
----
-
-### Q143: When should GitHub Issue be used instead of discussion?
-
-- Track tasks or bugs
-- Ask open feedback
-- Announce milestones
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** When tracking tasks or bugs
-
-</details>
-
----
-
-### Q144: Benefit of branches?
-
-- Prevent unauthorized access
-- Work without affecting main branch
-- Auto deployment
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Work without affecting main branch
-
-</details>
-
----
-
-### Q145: Requirement to add file to repository?
-
-- Write access
-- Owner
-- Read access
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Write access
-
-</details>
-
----
-
-### Q146: Difference between Git and GitHub?
-
-- Git distributed VCS, GitHub collaboration platform
-- Git individual tool
-- Git local branches only
-
-<details>
-<summary>Click to reveal the answer</summary>
-
-**Answer:** Git is DVCS and GitHub is platform built on Git
-
-</details>
-
----
-
-### Q147: Copilot Business capabilities not available in individual plans (Choose two)
-
-- Enterprise compliance integration
-- Centralized billing and seat management
-- Free student access
-- AI code completion
-- Organization policy controls
-
-<details>
-<summary>Click to reveal the answer</summary>
+## Q49: GitHub Flow is:
+
+- Branch workflow using PR reviews
+- Single branch workflow
+- CI pipeline process
+- Auto deployment workflow
 
 **Answer:**  
-Enterprise compliance integration  
-Centralized billing and seat management
-
-</details>
+Branch workflow using pull requests
 
 ---
 
----
+## Q50: GitHub Pro plan is:
+
+- Org paid plan
+- Enterprise hosting
+- Personal paid plan
+- Certification
+
+**Answer:**  
+Personal paid plan
